@@ -128,24 +128,22 @@ ul { list-style: none; }
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 0.55rem;
-  font-size: 1.25rem;
-  font-weight: 800;
-  color: var(--white);
-  letter-spacing: 0.02em;
 }
+
+.nav-logo-img {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  background: var(--white);
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+/* kept for footer fallback — hidden in navbar */
 .nav-logo .logo-leaf {
-  width: 34px;
-  height: 34px;
-  background: var(--green);
-  border-radius: 50% 50% 50% 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-  transform: rotate(-45deg);
+  display: none;
 }
-.nav-logo .logo-leaf span { transform: rotate(45deg); display: block; }
+.nav-logo > span { display: none; }
 
 .nav-links {
   display: flex;
@@ -717,7 +715,8 @@ footer {
   border-bottom: 1px solid #222;
 }
 
-.footer-brand .nav-logo { margin-bottom: 0.75rem; }
+.footer-brand .nav-logo { margin-bottom: 0.75rem; display: inline-flex; }
+.footer-brand .nav-logo-img { height: 52px; }
 .footer-brand p { font-size: 0.875rem; max-width: 260px; line-height: 1.6; }
 
 .footer-col h4 {
