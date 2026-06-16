@@ -128,24 +128,33 @@ ul { list-style: none; }
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 0.55rem;
-  font-size: 1.25rem;
-  font-weight: 800;
-  color: var(--white);
-  letter-spacing: 0.02em;
+  gap: 0.65rem;
+  text-decoration: none;
 }
-.nav-logo .logo-leaf {
-  width: 34px;
-  height: 34px;
-  background: var(--green);
-  border-radius: 50% 50% 50% 0;
+.nav-logo img {
+  height: 46px;
+  width: auto;
+  display: block;
+}
+.nav-logo-text {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1rem;
-  transform: rotate(-45deg);
+  flex-direction: column;
+  line-height: 1.15;
 }
-.nav-logo .logo-leaf span { transform: rotate(45deg); display: block; }
+.nav-logo-text .brand-main {
+  font-size: 1.05rem;
+  font-weight: 900;
+  color: var(--white);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.nav-logo-text .brand-sub {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--green-light);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
 
 .nav-links {
   display: flex;
@@ -717,7 +726,8 @@ footer {
   border-bottom: 1px solid #222;
 }
 
-.footer-brand .nav-logo { margin-bottom: 0.75rem; }
+.footer-brand .nav-logo { margin-bottom: 0.75rem; display: inline-flex; }
+.footer-brand .nav-logo img { height: 40px; }
 .footer-brand p { font-size: 0.875rem; max-width: 260px; line-height: 1.6; }
 
 .footer-col h4 {

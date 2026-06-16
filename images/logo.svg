@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Shadow/depth effect -->
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#00000022"/>
+    </filter>
+  </defs>
+
+  <!-- Green E-bracket shape -->
+  <!-- Top bar -->
+  <rect x="130" y="90"  width="240" height="52" rx="6" fill="#5CB85C" stroke="#3d8c40" stroke-width="2"/>
+  <!-- Left vertical spine -->
+  <rect x="130" y="90"  width="60"  height="320" rx="6" fill="#5CB85C" stroke="#3d8c40" stroke-width="2"/>
+  <!-- Middle bar -->
+  <rect x="130" y="224" width="175" height="52" rx="6" fill="#5CB85C" stroke="#3d8c40" stroke-width="2"/>
+  <!-- Bottom bar -->
+  <rect x="130" y="358" width="240" height="52" rx="6" fill="#5CB85C" stroke="#3d8c40" stroke-width="2"/>
+
+  <!-- White leaf shape (overlapping the E) -->
+  <path d="M 300 95 C 390 150, 395 340, 355 408 C 260 370, 210 230, 300 95 Z"
+        fill="white" filter="url(#shadow)"/>
+
+  <!-- Leaf veins (green) -->
+  <path d="M 300 95 C 305 220, 330 330, 355 408"
+        stroke="#5CB85C" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M 295 140 C 265 200, 255 280, 268 360"
+        stroke="#5CB85C" stroke-width="3.5" fill="none" stroke-linecap="round" opacity="0.75"/>
+  <path d="M 292 190 C 262 240, 255 300, 262 355"
+        stroke="#5CB85C" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.55"/>
+</svg>
