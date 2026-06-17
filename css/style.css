@@ -122,25 +122,36 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 180px;
+  padding: 8px 0;
+  min-height: 68px;
 }
 
 .nav-logo {
   display: flex;
   align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
 }
 
 .nav-logo-img {
-  height: 174px;
+  height: 46px;
   width: auto;
   object-fit: contain;
+  flex-shrink: 0;
 }
 
-/* kept for footer fallback — hidden in navbar */
-.nav-logo .logo-leaf {
-  display: none;
+.nav-logo-text {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.2;
+  white-space: nowrap;
 }
-.nav-logo > span { display: none; }
+.nav-logo-text strong { font-weight: 900; }
+
+/* kept for footer fallback */
+.nav-logo .logo-leaf { display: none; }
+.nav-logo > span:not(.nav-logo-text) { display: none; }
 
 .nav-links {
   display: flex;
@@ -221,7 +232,7 @@ ul { list-style: none; }
   align-items: center;
   position: relative;
   overflow: hidden;
-  padding-top: 180px;
+  padding-top: 68px;
 }
 
 /* animated floating orbs */
@@ -746,7 +757,7 @@ footer {
 /* ─── Page Hero (inner pages) ──────────────── */
 .page-hero {
   background: linear-gradient(135deg, var(--black) 0%, var(--green-dark) 100%);
-  padding: 11rem 0 4rem;
+  padding: 8rem 0 4rem;
   text-align: center;
   color: var(--white);
 }
