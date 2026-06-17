@@ -111,19 +111,18 @@ ul { list-style: none; }
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 1000;
-  background: var(--white);
-  border-bottom: 1px solid #e8e8e8;
+  background: var(--black);
   transition: box-shadow var(--transition), background var(--transition);
 }
 #navbar.scrolled {
-  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+  box-shadow: 0 2px 16px rgba(0,0,0,0.25);
 }
 
 .nav-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 76px;
+  height: 68px;
 }
 
 .nav-logo {
@@ -132,9 +131,12 @@ ul { list-style: none; }
 }
 
 .nav-logo-img {
-  height: 62px;
+  height: 58px;
   width: auto;
   object-fit: contain;
+  background: var(--white);
+  padding: 4px 14px;
+  border-radius: 8px;
 }
 
 /* kept for footer fallback — hidden in navbar */
@@ -149,7 +151,7 @@ ul { list-style: none; }
   gap: 2rem;
 }
 .nav-links a {
-  color: #444;
+  color: #ccc;
   font-weight: 500;
   font-size: 0.95rem;
   transition: color var(--transition);
@@ -160,11 +162,11 @@ ul { list-style: none; }
   position: absolute;
   bottom: -4px; left: 0;
   width: 0; height: 2px;
-  background: var(--green);
+  background: var(--green-light);
   transition: width var(--transition);
 }
 .nav-links a:hover,
-.nav-links a.active { color: var(--green); }
+.nav-links a.active { color: var(--white); }
 .nav-links a:hover::after,
 .nav-links a.active::after { width: 100%; }
 
@@ -187,7 +189,7 @@ ul { list-style: none; }
   display: block;
   width: 26px;
   height: 2px;
-  background: var(--black);
+  background: var(--white);
   border-radius: 2px;
   transition: transform var(--transition), opacity var(--transition);
 }
@@ -199,19 +201,19 @@ ul { list-style: none; }
 .mobile-menu {
   display: none;
   flex-direction: column;
-  background: var(--white);
+  background: var(--black);
   padding: 1rem 0;
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid #222;
 }
 .mobile-menu.open { display: flex; }
 .mobile-menu a {
   padding: 0.75rem 1.5rem;
-  color: #444;
+  color: #ccc;
   font-weight: 500;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #1a1a1a;
   transition: color var(--transition), background var(--transition);
 }
-.mobile-menu a:hover { color: var(--green); background: var(--green-pale); }
+.mobile-menu a:hover { color: var(--white); background: #1a1a1a; }
 .mobile-menu .nav-cta { margin: 0.75rem 1.5rem 0; text-align: center; }
 
 /* ─── Hero ─────────────────────────────────── */
