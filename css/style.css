@@ -726,7 +726,8 @@ footer {
 }
 
 .footer-brand .nav-logo { margin-bottom: 0.75rem; display: inline-flex; }
-.footer-brand .nav-logo-img { height: 52px; }
+.footer-brand .nav-logo-img { height: 52px; margin: 0; }
+.footer-brand .nav-logo-text { display: none; }
 .footer-brand p { font-size: 0.875rem; max-width: 260px; line-height: 1.6; }
 
 .footer-col h4 {
