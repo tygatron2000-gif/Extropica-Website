@@ -15,13 +15,19 @@ When writing or editing copy:
 - NEVER use "sourced from carefully selected farms" or imply reselling.
 - Product origin is **Kenya** (one place, our own land) — not Mediterranean,
   North African, Highland, Scandinavian, or South American farms.
+- Our farms are in **Ruai and Karen, Nairobi, Kenya** — name them where it adds
+  credibility (e.g. hero, About) rather than leaving origin as a generic "Kenya."
 
 ## Tech stack & structure
-- Pages: `index.html` (home), `products.html` (catalog), `contact.html` (inquiry form)
+- Pages: `index.html` (home), `products.html` (catalog), `about.html` (Our Story),
+  `export.html` (export capability), `contact.html` (inquiry form)
+- Nav order across all pages: Home · Products · Our Story · Export · Contact
 - Styles: `css/style.css` — CSS custom properties in `:root` (green/white/black palette)
 - Scripts: `js/main.js` — navbar scroll, hamburger menu, scroll-reveal (IntersectionObserver),
   animated counters, product filter, contact form handler
-- Images: `images/` (logo_2.png is the current logo)
+- Images: `images/` (logo_2.png is the current logo; hero.png is the homepage hero background)
+- `about.html` and `export.html` are skeletons: real structure, `[PLACEHOLDER]` copy and
+  `TODO`/`HONESTY CHECK` markers that must be filled with verified content before publishing.
 
 ## Code conventions
 - Keep it vanilla — no libraries or frameworks.
