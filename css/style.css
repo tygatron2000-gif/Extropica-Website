@@ -229,7 +229,9 @@ ul { list-style: none; }
 /* ─── Hero ─────────────────────────────────── */
 #hero {
   min-height: 100vh;
-  background: linear-gradient(135deg, var(--black) 0%, var(--green-dark) 60%, #0a3d1a 100%);
+  background:
+    linear-gradient(115deg, rgba(17,17,17,0.92) 0%, rgba(20,82,39,0.80) 48%, rgba(10,61,26,0.45) 100%),
+    url('../images/hero.png') center center / cover no-repeat;
   display: flex;
   align-items: center;
   position: relative;
@@ -297,6 +299,42 @@ ul { list-style: none; }
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+/* ── Hero entrance animation (TEST — remove this block to revert) ── */
+@keyframes heroRise {
+  from { opacity: 0; transform: translateY(26px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.hero-badge,
+.hero-title,
+.hero-sub,
+.hero-actions,
+.hero-stats {
+  opacity: 0;
+  animation: heroRise 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+.hero-badge   { animation-delay: 0.15s; }
+.hero-title   { animation-delay: 0.30s; }
+.hero-sub     { animation-delay: 0.48s; }
+.hero-actions { animation-delay: 0.66s; }
+.hero-stats   { animation-delay: 0.84s; }
+
+/* slow Ken Burns drift on the background photo */
+#hero {
+  animation: heroDrift 22s ease-in-out infinite alternate;
+}
+@keyframes heroDrift {
+  from { background-position: 0% 50%, 50% 50%; }
+  to   { background-position: 0% 50%, 50% 42%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-badge, .hero-title, .hero-sub, .hero-actions, .hero-stats {
+    animation: none;
+    opacity: 1;
+  }
+  #hero { animation: none; }
 }
 
 /* animated counter strip */
