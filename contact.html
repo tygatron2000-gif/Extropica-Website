@@ -1,286 +1,191 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact — Extropica Fresh</title>
-  <meta name="description" content="Get in touch with Extropica Fresh. Request a quote, ask about our fresh herb catalog, or discuss export logistics." />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231e7e34'/><text y='24' x='4' font-size='22'>🌿</text></svg>" />
-  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="Get in touch with Extropica Fresh. Request a quote for premium fresh herbs, ask about export logistics, or discuss your requirements.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231e7e34'/><text y='25' x='5' font-size='22'>🌿</text></svg>">
+  <link rel="stylesheet" href="css/royal-herbs.css">
 </head>
 <body>
 
-  <!-- ═══ NAVIGATION ═══════════════════════════ -->
-  <nav id="navbar">
-    <div class="container nav-inner">
-      <a href="index.html" class="nav-logo">
-        <img src="images/logo_2.png" alt="Extropica Fresh Limited" class="nav-logo-img">
-        <span class="nav-logo-text">Extropica <strong>Fresh</strong></span>
-      </a>
-      <ul class="nav-links">
+  <div id="preloader"><div class="loader-dots"><span></span><span></span><span></span></div></div>
+  <button class="scroll-top" aria-label="Scroll to top">↑</button>
+
+  <header id="header">
+    <div class="container-wide header-inner">
+      <a href="index.html" class="logo"><img src="images/logo_2.png" alt="Extropica Fresh Limited"></a>
+      <nav class="main-menu">
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="export.html">Export</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-cta"><a href="contact.html" class="btn gradient-btn"><span>+</span> Request a Quote</a></div>
+      <button class="mobile-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-menu">
+    <div class="mobile-backdrop"></div>
+    <div class="mobile-panel">
+      <button class="close-btn" aria-label="Close menu">✕</button>
+      <div class="m-logo"><img src="images/logo_2.png" alt="Extropica Fresh"></div>
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="products.html">Products</a></li>
         <li><a href="about.html">Our Story</a></li>
         <li><a href="export.html">Export</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
-      <a href="contact.html" class="btn btn-primary nav-cta">Request a Quote</a>
-      <button class="hamburger" aria-label="Toggle menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-    <div class="mobile-menu">
-      <a href="index.html">Home</a>
-      <a href="products.html">Products</a>
-      <a href="about.html">Our Story</a>
-      <a href="export.html">Export</a>
-      <a href="contact.html">Contact</a>
-      <a href="contact.html" class="btn btn-primary nav-cta">Request a Quote</a>
-    </div>
-  </nav>
-
-  <!-- ═══ PAGE HERO ════════════════════════════ -->
-  <div class="page-hero">
-    <div class="container">
-      <h1>Get in Touch</h1>
-      <p>Ready to source premium fresh herbs? Our export team replies within 24 hours.</p>
     </div>
   </div>
 
-  <!-- ═══ CONTACT SECTION ══════════════════════ -->
-  <section id="contact" style="padding-top:4rem">
-    <div class="container">
-      <div class="contact-grid">
+  <main>
 
-        <!-- Left: info -->
-        <div class="contact-info reveal">
-          <span class="section-label">Let's Talk Business</span>
-          <h2 class="section-title">We'd Love to Hear From You</h2>
-          <p class="section-sub" style="max-width:100%;color:#666;margin-top:0.75rem">
-            Whether you're a first-time importer, an established distributor, or a food
-            manufacturer looking for a reliable herb supply partner — we're here to help.
-          </p>
+    <section class="breadcrumb-hero" style="--bc-img: url('images/hero.png')">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <div class="breadcrumb-nav">
+          <a href="index.html">Home</a><span class="sep">›</span><span>Contact</span>
+        </div>
+      </div>
+    </section>
 
-          <div class="contact-details">
-            <div class="contact-item">
-              <div class="contact-icon">📧</div>
-              <div>
-                <h4>Email Us</h4>
-                <p>exports@extropicafresh.com</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">📞</div>
-              <div>
-                <h4>Call / WhatsApp</h4>
-                <p>+1 (555) 000-1234</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">🕐</div>
-              <div>
-                <h4>Business Hours</h4>
-                <p>Mon – Fri, 08:00 – 18:00 (UTC+2)</p>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon">🌍</div>
-              <div>
-                <h4>Shipping Regions</h4>
-                <p>Europe · Middle East · North America · Asia-Pacific</p>
-              </div>
-            </div>
+    <!-- Contact info boxes -->
+    <section class="contact-info-section">
+      <div class="container">
+        <div class="contact-boxes">
+          <div class="contact-box" data-reveal>
+            <div class="contact-box-icon">📞</div>
+            <h4>Phone</h4>
+            <p>[ADD REAL NUMBER]</p>
+            <p>Mon – Fri, 08:00 – 17:00 (UTC+3)</p>
           </div>
-
-          <!-- quick facts -->
-          <div style="margin-top:2.5rem;background:var(--green-pale);border-radius:14px;padding:1.5rem">
-            <h4 style="font-size:0.9rem;font-weight:700;margin-bottom:1rem;color:var(--green-dark)">
-              What to include in your inquiry:
-            </h4>
-            <ul style="display:flex;flex-direction:column;gap:0.5rem;font-size:0.875rem;color:#444">
-              <li>✅ Herb type(s) and varieties required</li>
-              <li>✅ Estimated monthly or annual volume</li>
-              <li>✅ Destination country and port</li>
-              <li>✅ Preferred packaging (bulk / retail / private label)</li>
-              <li>✅ Required certifications (organic, GlobalG.A.P., etc.)</li>
-            </ul>
+          <div class="contact-box" data-reveal data-delay="0.1">
+            <div class="contact-box-icon">📍</div>
+            <h4>Our Farms</h4>
+            <p>Ruai &amp; Karen</p>
+            <p>Nairobi, Kenya</p>
+          </div>
+          <div class="contact-box" data-reveal data-delay="0.2">
+            <div class="contact-box-icon">✉️</div>
+            <h4>Email</h4>
+            <p>info@extropica.ke</p>
+            <p>We reply within 24 hours</p>
           </div>
         </div>
+      </div>
+    </section>
 
-        <!-- Right: form -->
-        <div class="contact-form reveal">
-          <h3>Send an Inquiry</h3>
+    <!-- Contact form -->
+    <section class="contact-form-section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Send Us a Message</span>
+          <h2 class="title"><span>How Can We</span> Help You?</h2>
+        </div>
+
+        <div class="contact-form-wrap" data-reveal data-delay="0.1">
           <form id="contactForm" novalidate>
-
             <div class="form-row">
               <div class="form-group">
                 <label for="firstName">First Name *</label>
-                <input type="text" id="firstName" name="firstName" placeholder="Jane" required />
+                <input type="text" id="firstName" name="firstName" placeholder="Jane" required>
               </div>
               <div class="form-group">
                 <label for="lastName">Last Name *</label>
-                <input type="text" id="lastName" name="lastName" placeholder="Smith" required />
+                <input type="text" id="lastName" name="lastName" placeholder="Smith" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="phone">Phone / WhatsApp</label>
+                <input type="tel" id="phone" name="phone" placeholder="+254 700 000 000">
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="jane@yourcompany.com" required>
               </div>
             </div>
 
             <div class="form-group">
-              <label for="company">Company / Organisation</label>
-              <input type="text" id="company" name="company" placeholder="Your company name" />
-            </div>
-
-            <div class="form-group">
-              <label for="email">Email Address *</label>
-              <input type="email" id="email" name="email" placeholder="jane@yourcompany.com" required />
-            </div>
-
-            <div class="form-group">
-              <label for="phone">Phone / WhatsApp</label>
-              <input type="tel" id="phone" name="phone" placeholder="+1 555 000 0000" />
-            </div>
-
-            <div class="form-group">
-              <label for="country">Destination Country *</label>
-              <select id="country" name="country" required>
-                <option value="" disabled selected>Select your country…</option>
-                <optgroup label="Europe">
-                  <option>United Kingdom</option>
-                  <option>Germany</option>
-                  <option>France</option>
-                  <option>Netherlands</option>
-                  <option>Spain</option>
-                  <option>Italy</option>
-                  <option>Other European Country</option>
-                </optgroup>
-                <optgroup label="Middle East">
-                  <option>UAE</option>
-                  <option>Saudi Arabia</option>
-                  <option>Qatar</option>
-                  <option>Kuwait</option>
-                  <option>Other Middle East Country</option>
-                </optgroup>
-                <optgroup label="North America">
-                  <option>United States</option>
-                  <option>Canada</option>
-                </optgroup>
-                <optgroup label="Asia-Pacific">
-                  <option>Japan</option>
-                  <option>Australia</option>
-                  <option>Singapore</option>
-                  <option>Other APAC Country</option>
-                </optgroup>
-                <optgroup label="Other">
-                  <option>Other</option>
-                </optgroup>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="herb">Herb(s) of Interest *</label>
-              <select id="herb" name="herb" required>
-                <option value="" disabled selected>Select a herb…</option>
+              <label for="herb">Herb(s) of Interest</label>
+              <select id="herb" name="herb">
+                <option value="" disabled selected>Select a herb...</option>
                 <option>Sweet Basil</option>
-                <option>Thai Basil</option>
                 <option>Flat-Leaf Parsley</option>
-                <option>Curly Parsley</option>
-                <option>Spearmint</option>
-                <option>Peppermint</option>
+                <option>Mint</option>
                 <option>Coriander / Cilantro</option>
                 <option>Rosemary</option>
                 <option>Thyme</option>
-                <option>Fresh Dill</option>
-                <option>Lemon Verbena</option>
+                <option>Dill</option>
                 <option>Chives</option>
                 <option>Multiple / Other</option>
               </select>
             </div>
 
             <div class="form-group">
-              <label for="volume">Estimated Monthly Volume</label>
-              <select id="volume" name="volume">
-                <option value="" disabled selected>Select volume range…</option>
-                <option>Under 500 kg</option>
-                <option>500 kg – 2 tonnes</option>
-                <option>2 – 10 tonnes</option>
-                <option>10 – 50 tonnes</option>
-                <option>50+ tonnes</option>
-                <option>Not sure yet</option>
-              </select>
+              <label for="message">Your Message *</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your requirements — volumes, packaging, destination, certifications needed..." required></textarea>
             </div>
 
-            <div class="form-group">
-              <label for="message">Additional Information</label>
-              <textarea id="message" name="message" rows="4"
-                placeholder="Tell us about your specific requirements, certifications needed, packaging preferences, or any questions you have…"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary form-submit">Send Inquiry</button>
+            <button type="submit" class="btn gradient-btn form-submit">Send Now</button>
 
             <div class="form-success">
-              ✅ &nbsp;Thank you! Your inquiry has been received. We'll get back to you within 24 hours.
+              Thank you! Your message has been received. We'll get back to you within 24 hours.
             </div>
-
           </form>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ═══ TRUST STRIP ═══════════════════════════ -->
-  <section style="background:var(--black);padding:3.5rem 0;margin-top:4rem">
-    <div class="container">
-      <p style="text-align:center;color:rgba(255,255,255,0.4);font-size:0.8rem;font-weight:700;
-                letter-spacing:0.12em;text-transform:uppercase;margin-bottom:2rem">
-        Trusted by importers in
-      </p>
-      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:2.5rem;align-items:center">
-        <span style="color:rgba(255,255,255,0.55);font-size:1rem;font-weight:600">🇬🇧 United Kingdom</span>
-        <span style="color:rgba(255,255,255,0.55);font-size:1rem;font-weight:600">🇩🇪 Germany</span>
-        <span style="color:rgba(255,255,255,0.55);font-size:1rem;font-weight:600">🇦🇪 UAE</span>
-        <span style="color:rgba(255,255,255,0.55);font-size:1rem;font-weight:600">🇺🇸 United States</span>
-        <span style="color:rgba(255,255,255,0.55);font-size:1rem;font-weight:600">🇯🇵 Japan</span>
-        <span style="color:rgba(255,255,255,0.55);font-size:1rem;font-weight:600">🇳🇱 Netherlands</span>
-        <span style="color:rgba(255,255,255,0.55);font-size:1rem;font-weight:600">🇸🇦 Saudi Arabia</span>
+    <section class="cta-band">
+      <div class="container" data-reveal>
+        <h2>Prefer to Talk Directly?</h2>
+        <p>Our export team is available Monday to Friday, 08:00 – 17:00 East Africa Time (UTC+3).</p>
+        <a href="mailto:info@extropica.ke" class="btn transparent-btn">Email info@extropica.ke</a>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ═══ FOOTER ════════════════════════════════ -->
-  <footer>
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="nav-logo">
-            <img src="images/logo_2.png" alt="Extropica Fresh Limited" class="nav-logo-img">
-        <span class="nav-logo-text">Extropica <strong>Fresh</strong></span>
-          </a>
-          <p>Premium fresh herb exporters connecting quality farms with global markets — reliably, sustainably, and with full traceability.</p>
+  </main>
+
+  <footer class="footer" style="--footer-img: url('images/hero.png')">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-widget">
+            <div class="footer-logo"><img src="images/logo_2.png" alt="Extropica Fresh"></div>
+            <ul class="footer-contact">
+              <li><span class="fi">📍</span><span><b>Farms:</b> Ruai &amp; Karen, Nairobi, Kenya</span></li>
+              <li><span class="fi">✉️</span><span><b>Email:</b> info@extropica.ke</span></li>
+              <li><span class="fi">🌐</span><span><b>Web:</b> extropica.ke</span></li>
+              <li><span class="fi">📞</span><span><b>Phone:</b> [ADD REAL NUMBER]</span></li>
+            </ul>
+          </div>
+          <div class="footer-widget">
+            <h5 class="fw-title">Extropica Fresh</h5>
+            <ul class="fw-link"><li><a href="index.html">Home</a></li><li><a href="products.html">Products</a></li><li><a href="about.html">Our Story</a></li><li><a href="export.html">Export</a></li><li><a href="contact.html">Contact</a></li></ul>
+          </div>
+          <div class="footer-widget">
+            <h5 class="fw-title">What We Do</h5>
+            <p class="footer-note"><strong>We grow and export premium fresh herbs</strong> from our own farms in Kenya to buyers worldwide — single-origin, traceable, and cold-chain fresh.</p>
+          </div>
+          <div class="footer-widget">
+            <h5 class="fw-title">Our Herbs</h5>
+            <div class="footer-tags"><span>Basil</span><span>Parsley</span><span>Mint</span><span>Coriander</span><span>Rosemary</span><span>Thyme</span><span>Dill</span><span>Chives</span></div>
+          </div>
         </div>
-        <div class="footer-col">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Our Herbs</h4>
-          <ul>
-            <li><a href="products.html">Basil</a></li>
-            <li><a href="products.html">Parsley</a></li>
-            <li><a href="products.html">Mint</a></li>
-            <li><a href="products.html">Coriander</a></li>
-            <li><a href="products.html">Rosemary</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>&copy; 2026 Extropica Fresh. All rights reserved.</span>
-        <span>Built for global fresh herb trade.</span>
       </div>
     </div>
+    <div class="copyright"><div class="container"><p>&copy; 2026 <a href="index.html">Extropica Fresh Limited</a>. All rights reserved · Grown in Kenya.</p></div></div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="js/royal-herbs.js"></script>
 </body>
 </html>

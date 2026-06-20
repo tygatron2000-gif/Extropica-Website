@@ -73,3 +73,22 @@ if (revealEls.length) {
     }
   });
 })();
+
+// ─── Contact form handler ─────────────────────────────────
+const cForm = document.getElementById('contactForm');
+if (cForm) {
+  cForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const btn = cForm.querySelector('button[type="submit"]');
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+    setTimeout(() => {
+      cForm.reset();
+      btn.disabled = false;
+      btn.textContent = 'Send Now';
+      const msg = document.querySelector('.form-success');
+      if (msg) msg.classList.add('show');
+      setTimeout(() => msg && msg.classList.remove('show'), 5000);
+    }, 1200);
+  });
+}

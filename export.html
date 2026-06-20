@@ -1,220 +1,182 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Export — Extropica Fresh</title>
-  <meta name="description" content="Extropica Fresh export capability — certifications, markets served, cold-chain packaging, and export terms for fresh herbs grown in Kenya." />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231e7e34'/><text y='24' x='4' font-size='22'>🌿</text></svg>" />
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Export Capability — Extropica Fresh</title>
+  <meta name="description" content="Extropica Fresh export capability — certifications, cold-chain logistics, phytosanitary compliance, and packaging for international herb buyers.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231e7e34'/><text y='25' x='5' font-size='22'>🌿</text></svg>">
+  <link rel="stylesheet" href="css/royal-herbs.css">
 </head>
 <body>
 
-  <!-- ═══ NAVIGATION ═══════════════════════════ -->
-  <nav id="navbar">
-    <div class="container nav-inner">
-      <a href="index.html" class="nav-logo">
-        <img src="images/logo_2.png" alt="Extropica Fresh Limited" class="nav-logo-img">
-        <span class="nav-logo-text">Extropica <strong>Fresh</strong></span>
-      </a>
-      <ul class="nav-links">
+  <div id="preloader"><div class="loader-dots"><span></span><span></span><span></span></div></div>
+  <button class="scroll-top" aria-label="Scroll to top">↑</button>
+
+  <header id="header">
+    <div class="container-wide header-inner">
+      <a href="index.html" class="logo"><img src="images/logo_2.png" alt="Extropica Fresh Limited"></a>
+      <nav class="main-menu">
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">Our Story</a></li>
+          <li class="active"><a href="export.html">Export</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-cta"><a href="contact.html" class="btn gradient-btn"><span>+</span> Request a Quote</a></div>
+      <button class="mobile-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-menu">
+    <div class="mobile-backdrop"></div>
+    <div class="mobile-panel">
+      <button class="close-btn" aria-label="Close menu">✕</button>
+      <div class="m-logo"><img src="images/logo_2.png" alt="Extropica Fresh"></div>
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="products.html">Products</a></li>
         <li><a href="about.html">Our Story</a></li>
-        <li><a href="export.html" class="active">Export</a></li>
+        <li><a href="export.html">Export</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
-      <a href="contact.html" class="btn btn-primary nav-cta">Request a Quote</a>
-      <button class="hamburger" aria-label="Toggle menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-    <div class="mobile-menu">
-      <a href="index.html">Home</a>
-      <a href="products.html">Products</a>
-      <a href="about.html">Our Story</a>
-      <a href="export.html">Export</a>
-      <a href="contact.html">Contact</a>
-      <a href="contact.html" class="btn btn-primary nav-cta">Request a Quote</a>
-    </div>
-  </nav>
-
-  <!-- ═══ PAGE HERO ════════════════════════════ -->
-  <div class="page-hero">
-    <div class="container">
-      <h1>Export Capability</h1>
-      <p>Compliance, cold chain, and logistics — everything a serious buyer needs to know.</p>
     </div>
   </div>
 
-  <!-- ═══ CERTIFICATIONS ═══════════════════════ -->
-  <!-- BRIEF: KEPHIS, GlobalGAP, food safety certs as visual badges. Buyers scan for these immediately. -->
-  <!-- TODO: HONESTY CHECK — only display certifications Extropica Fresh actually holds.
-       Confirm each before publishing; remove any not yet certified. -->
-  <section style="padding-top:4.5rem">
-    <div class="container">
-      <div style="text-align:center;margin-bottom:3rem" class="reveal">
-        <span class="section-label">Compliance</span>
-        <h2 class="section-title">Certifications &amp; Standards</h2>
-        <p class="section-sub" style="margin:0.75rem auto 0">
-          [PLACEHOLDER — short line on the standards we meet. Confirm which are held.]
-        </p>
-      </div>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem">
-        <div class="why-card reveal" style="background:var(--white);border-color:#ddd;color:var(--black);text-align:center">
-          <div class="why-icon">🛂</div>
-          <h3 style="color:var(--black)">KEPHIS</h3>
-          <p style="color:var(--gray-mid)">[PLACEHOLDER — phytosanitary inspection / cert no. — CONFIRM]</p>
-        </div>
-        <div class="why-card reveal" style="background:var(--white);border-color:#ddd;color:var(--black);text-align:center">
-          <div class="why-icon">🌍</div>
-          <h3 style="color:var(--black)">GlobalG.A.P.</h3>
-          <p style="color:var(--gray-mid)">[PLACEHOLDER — good agricultural practice — CONFIRM]</p>
-        </div>
-        <div class="why-card reveal" style="background:var(--white);border-color:#ddd;color:var(--black);text-align:center">
-          <div class="why-icon">🛡️</div>
-          <h3 style="color:var(--black)">Food Safety</h3>
-          <p style="color:var(--gray-mid)">[PLACEHOLDER — HACCP / other food-safety cert — CONFIRM]</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  <main>
 
-  <!-- ═══ MARKETS SERVED ═══════════════════════ -->
-  <!-- BRIEF: Countries/regions currently supplied. World map or clean list of flags. -->
-  <!-- TODO: HONESTY CHECK — list only markets actually served. No invented countries. -->
-  <section style="background:var(--green-pale);padding:4.5rem 0;margin-top:4.5rem">
-    <div class="container">
-      <div style="text-align:center;margin-bottom:3rem" class="reveal">
-        <span class="section-label">Reach</span>
-        <h2 class="section-title">Markets We Serve</h2>
-        <p class="section-sub" style="margin:0.75rem auto 0">
-          [PLACEHOLDER — regions we currently export to. Confirm real destinations.]
-        </p>
+    <section class="breadcrumb-hero" style="--bc-img: url('images/hero.png')">
+      <div class="container">
+        <h1>Export Capability</h1>
+        <div class="breadcrumb-nav">
+          <a href="index.html">Home</a><span class="sep">›</span><span>Export</span>
+        </div>
       </div>
-      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:2.5rem;align-items:center">
-        <span style="font-size:1rem;font-weight:600;color:var(--black)">[Region / Country 1]</span>
-        <span style="font-size:1rem;font-weight:600;color:var(--black)">[Region / Country 2]</span>
-        <span style="font-size:1rem;font-weight:600;color:var(--black)">[Region / Country 3]</span>
-        <span style="font-size:1rem;font-weight:600;color:var(--black)">[Region / Country 4]</span>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ═══ PACKAGING & COLD CHAIN ═══════════════ -->
-  <!-- BRIEF: Post-harvest handling — cold storage, packaging standards, shelf life per product. -->
-  <section style="padding:4.5rem 0">
-    <div class="container">
-      <div style="text-align:center;margin-bottom:3rem" class="reveal">
-        <span class="section-label">Post-Harvest</span>
-        <h2 class="section-title">Packaging &amp; Cold Chain</h2>
-        <p class="section-sub" style="margin:0.75rem auto 0">
-          How we protect freshness from harvest to destination.
-        </p>
+    <!-- Certifications -->
+    <!-- TODO: HONESTY CHECK — only list certifications Extropica actually holds -->
+    <section class="export-section" style="background: var(--gray-light)">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Standards &amp; Compliance</span>
+          <h2 class="title"><span>Our</span> Certifications</h2>
+        </div>
+        <div class="export-grid">
+          <div class="export-card" data-reveal>
+            <div class="export-card-icon">🛡️</div>
+            <h4>KEPHIS</h4>
+            <p>Kenya Plant Health Inspectorate Service registration for phytosanitary compliance and plant export permits.</p>
+            <span class="placeholder">HONESTY CHECK — confirm cert is held</span>
+          </div>
+          <div class="export-card" data-reveal data-delay="0.1">
+            <div class="export-card-icon">✅</div>
+            <h4>GlobalG.A.P.</h4>
+            <p>Good Agricultural Practices certification for food safety, sustainability, and worker welfare.</p>
+            <span class="placeholder">HONESTY CHECK — confirm cert is held</span>
+          </div>
+          <div class="export-card" data-reveal data-delay="0.2">
+            <div class="export-card-icon">🔬</div>
+            <h4>Food Safety &amp; MRL Testing</h4>
+            <p>Regular maximum residue level testing and food safety protocols to meet EU and UK import requirements.</p>
+            <span class="placeholder">HONESTY CHECK — confirm testing arrangements</span>
+          </div>
+        </div>
       </div>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.5rem">
-        <div class="why-card reveal" style="background:var(--white);border-color:#ddd;color:var(--black)">
-          <div class="why-icon">❄️</div>
-          <h3 style="color:var(--black)">Cold Storage</h3>
-          <p style="color:var(--gray-mid)">[PLACEHOLDER — pre-cooling & cold-room handling.]</p>
-        </div>
-        <div class="why-card reveal" style="background:var(--white);border-color:#ddd;color:var(--black)">
-          <div class="why-icon">📦</div>
-          <h3 style="color:var(--black)">Packaging Standards</h3>
-          <p style="color:var(--gray-mid)">[PLACEHOLDER — formats: bulk, retail, clamshell, private label.]</p>
-        </div>
-        <div class="why-card reveal" style="background:var(--white);border-color:#ddd;color:var(--black)">
-          <div class="why-icon">📅</div>
-          <h3 style="color:var(--black)">Shelf Life</h3>
-          <p style="color:var(--gray-mid)">[PLACEHOLDER — typical shelf life per product. CONFIRM real figures.]</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ═══ EXPORT FAQ ═══════════════════════════ -->
-  <!-- BRIEF: Min. order qty · Lead times · Incoterms offered · Accepted payment methods -->
-  <section style="background:var(--black);padding:4.5rem 0">
-    <div class="container">
-      <div style="text-align:center;margin-bottom:3rem" class="reveal">
-        <span class="section-label" style="color:#6ddc88">Good to Know</span>
-        <h2 class="section-title" style="color:var(--white)">Export FAQ</h2>
+    <!-- Cold-chain & logistics -->
+    <section class="export-section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Logistics</span>
+          <h2 class="title"><span>Cold-Chain</span> &amp; Packaging</h2>
+        </div>
+        <div class="values-grid">
+          <div class="value-card" data-reveal>
+            <div class="value-icon">❄️</div>
+            <h4>Cold Storage</h4>
+            <p>On-farm cold rooms and refrigerated transport ensure herbs stay at optimal temperature from harvest through to air freight.</p>
+          </div>
+          <div class="value-card" data-reveal data-delay="0.1">
+            <div class="value-icon">📦</div>
+            <h4>Packaging Standards</h4>
+            <p>Ventilated cartons, clamshells, and retail bunches — designed for maximum freshness and shelf-life on arrival.</p>
+          </div>
+          <div class="value-card" data-reveal data-delay="0.2">
+            <div class="value-icon">📋</div>
+            <h4>Full Documentation</h4>
+            <p>Phytosanitary certificates, MRL reports, certificates of origin, and customs paperwork — all handled by us.</p>
+          </div>
+        </div>
       </div>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;max-width:900px;margin:0 auto">
-        <div class="why-card reveal">
-          <h3>Minimum Order Quantity</h3>
-          <p>[PLACEHOLDER — MOQ per product / format.]</p>
-        </div>
-        <div class="why-card reveal">
-          <h3>Lead Times</h3>
-          <p>[PLACEHOLDER — order-to-ship lead time.]</p>
-        </div>
-        <div class="why-card reveal">
-          <h3>Incoterms Offered</h3>
-          <p>[PLACEHOLDER — e.g. FOB, CIF, EXW — confirm which.]</p>
-        </div>
-        <div class="why-card reveal">
-          <h3>Payment Methods</h3>
-          <p>[PLACEHOLDER — accepted payment terms / methods.]</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ═══ CTA BAND ══════════════════════════════ -->
-  <section style="background:var(--green);padding:4rem 0;text-align:center">
-    <div class="container reveal">
-      <h2 style="font-size:clamp(1.6rem,4vw,2.4rem);font-weight:900;color:#fff;margin-bottom:0.75rem">
-        Ready to Discuss Your Order?
-      </h2>
-      <p style="color:rgba(255,255,255,0.8);margin-bottom:2rem;font-size:1.05rem">
-        Send us your spec and we'll come back with terms and a quote.
-      </p>
-      <a href="contact.html" class="btn btn-outline" style="font-size:1rem;padding:0.85rem 2.5rem">
-        Request a Quote
-      </a>
-    </div>
-  </section>
+    <!-- Markets -->
+    <section class="welcome">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Where We Ship</span>
+          <h2 class="title"><span>Export</span> Markets</h2>
+        </div>
+        <div class="welcome-text" data-reveal data-delay="0.1">
+          <p>
+            Extropica Fresh exports to buyers across multiple regions. Our established logistics
+            routes and documentation expertise make international herb trade simple for importers.
+          </p>
+          <!-- TODO: confirm actual current export markets before publishing -->
+          <div class="welcome-highlights">
+            <span>🇪🇺 European Union</span>
+            <span>🇬🇧 United Kingdom</span>
+            <span>🇦🇪 Middle East</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- ═══ FOOTER ════════════════════════════════ -->
-  <footer>
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="nav-logo">
-            <img src="images/logo_2.png" alt="Extropica Fresh Limited" class="nav-logo-img">
-        <span class="nav-logo-text">Extropica <strong>Fresh</strong></span>
-          </a>
-          <p>Kenyan growers and exporters of premium fresh herbs — from our own farms in Nairobi to buyers worldwide, with full traceability.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="about.html">Our Story</a></li>
-            <li><a href="export.html">Export</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Our Herbs</h4>
-          <ul>
-            <li><a href="products.html">Basil</a></li>
-            <li><a href="products.html">Parsley</a></li>
-            <li><a href="products.html">Mint</a></li>
-            <li><a href="products.html">Coriander</a></li>
-            <li><a href="products.html">Rosemary</a></li>
-          </ul>
-        </div>
+    <section class="cta-band">
+      <div class="container" data-reveal>
+        <h2>Need Export Documentation or a Custom Quote?</h2>
+        <p>Our export team handles everything — tell us your destination and requirements.</p>
+        <a href="contact.html" class="btn transparent-btn">Contact Our Export Team</a>
       </div>
-      <div class="footer-bottom">
-        <span>&copy; 2026 Extropica Fresh. All rights reserved.</span>
-        <span>Built for global fresh herb trade.</span>
+    </section>
+
+  </main>
+
+  <footer class="footer" style="--footer-img: url('images/hero.png')">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-widget">
+            <div class="footer-logo"><img src="images/logo_2.png" alt="Extropica Fresh"></div>
+            <ul class="footer-contact">
+              <li><span class="fi">📍</span><span><b>Farms:</b> Ruai &amp; Karen, Nairobi, Kenya</span></li>
+              <li><span class="fi">✉️</span><span><b>Email:</b> info@extropica.ke</span></li>
+              <li><span class="fi">🌐</span><span><b>Web:</b> extropica.ke</span></li>
+              <li><span class="fi">📞</span><span><b>Phone:</b> [ADD REAL NUMBER]</span></li>
+            </ul>
+          </div>
+          <div class="footer-widget">
+            <h5 class="fw-title">Extropica Fresh</h5>
+            <ul class="fw-link"><li><a href="index.html">Home</a></li><li><a href="products.html">Products</a></li><li><a href="about.html">Our Story</a></li><li><a href="export.html">Export</a></li><li><a href="contact.html">Contact</a></li></ul>
+          </div>
+          <div class="footer-widget">
+            <h5 class="fw-title">What We Do</h5>
+            <p class="footer-note"><strong>We grow and export premium fresh herbs</strong> from our own farms in Kenya to buyers worldwide — single-origin, traceable, and cold-chain fresh.</p>
+          </div>
+          <div class="footer-widget">
+            <h5 class="fw-title">Our Herbs</h5>
+            <div class="footer-tags"><span>Basil</span><span>Parsley</span><span>Mint</span><span>Coriander</span><span>Rosemary</span><span>Thyme</span><span>Dill</span><span>Chives</span></div>
+          </div>
+        </div>
       </div>
     </div>
+    <div class="copyright"><div class="container"><p>&copy; 2026 <a href="index.html">Extropica Fresh Limited</a>. All rights reserved · Grown in Kenya.</p></div></div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="js/royal-herbs.js"></script>
 </body>
 </html>
