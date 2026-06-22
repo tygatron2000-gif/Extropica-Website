@@ -825,3 +825,14 @@ footer {
   .hero-actions { flex-direction: column; }
   .why-grid { grid-template-columns: 1fr; }
 }
+
+/* ─── Touch devices: tap feedback ─────────── */
+@media (hover: none) {
+  .product-card:active,
+  .why-card:active { transform: scale(0.97); box-shadow: var(--shadow); transition: transform 0.12s ease; }
+  .btn:active { transform: scale(0.95); transition: transform 0.12s ease; }
+  .product-card,
+  .why-card,
+  .btn { -webkit-tap-highlight-color: transparent; }
+  .product-card { box-shadow: 0 4px 14px rgba(0,0,0,0.06); }
+}
