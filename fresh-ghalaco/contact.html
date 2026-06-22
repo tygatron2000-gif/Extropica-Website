@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Contact — Extropica Fresh</title>
+  <meta name="description" content="Get in touch with Extropica Fresh. Request a quote for premium single-origin Kenyan herbs, or discuss export volumes and logistics with our team.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231e7e34'/><text y='25' x='5' font-size='22'>🌿</text></svg>">
+  <link rel="stylesheet" href="css/fresh-ghalaco.css">
+</head>
+<body>
+
+<!-- ========== TOP BAR ========== -->
+<div class="top-bar">
+  <div class="container top-bar-inner">
+    <div class="top-bar-left">
+      🌿 Kenyan-Grown
+      <span class="tb-sep">·</span> Single-Origin
+      <span class="tb-sep">·</span> Cold-Chain Fresh
+    </div>
+    <div class="top-bar-right">
+      <a href="tel:"><span class="ico">📞</span> [ADD REAL NUMBER]</a>
+      <span class="tb-sep">|</span>
+      <a href="mailto:info@extropica.ke"><span class="ico">✉️</span> info@extropica.ke</a>
+    </div>
+  </div>
+</div>
+
+<!-- ========== HEADER ========== -->
+<header>
+  <div class="container navbar">
+    <a href="index.html" class="logo">
+      <img src="images/logo_2.png" alt="Extropica Fresh Limited" class="logo-img">
+      <div class="logo-text">
+        <span class="logo-name">Extropica Fresh</span>
+        <span class="logo-tagline">Grown in Kenya</span>
+      </div>
+    </a>
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">Our Story</a>
+      <a href="export.html">Export</a>
+      <a href="contact.html">Contact</a>
+      <a href="contact.html" class="btn-nav-cta">Request a Quote <span class="btn-ico">→</span></a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ========== BREADCRUMB HERO ========== -->
+  <section class="breadcrumb-hero" style="--bc-img: url('images/hero.png')">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <div class="breadcrumb-nav">
+        <a href="index.html">Home</a><span class="sep">›</span><span>Contact</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact">
+    <div class="container">
+      <div class="contact-card">
+        <div class="contact-info">
+          <span class="section-label light">Get in Touch</span>
+          <h2>Let's talk<br>export</h2>
+          <p>Ready to supply single-origin Kenyan herbs year-round. Request a quote or discuss export volumes with our team — we reply within 24 hours.</p>
+          <div class="contact-details">
+            <a class="contact-detail-item" href="mailto:info@extropica.ke">
+              <div class="contact-icon">✉️</div>
+              <span>info@extropica.ke</span>
+            </a>
+            <!-- TODO: add real phone number -->
+            <a class="contact-detail-item" href="tel:">
+              <div class="contact-icon">📞</div>
+              <span>[ADD REAL NUMBER]</span>
+            </a>
+            <div class="contact-detail-item">
+              <div class="contact-icon">📍</div>
+              <span>Ruai &amp; Karen, Nairobi, Kenya</span>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-icon">🕐</div>
+              <span>Mon – Fri, 08:00 – 17:00 (UTC+3)</span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Instagram">◎</a>
+            <a href="#" aria-label="WhatsApp">✆</a>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <form id="inquiryForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fullName">Full Name *</label>
+                <input type="text" id="fullName" name="name" placeholder="Jane Smith" required>
+              </div>
+              <div class="form-group">
+                <label for="emailId">Email Address *</label>
+                <input type="email" id="emailId" name="email" placeholder="jane@company.com" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="companyName">Company / Organisation</label>
+                <input type="text" id="companyName" name="company" placeholder="Your company name">
+              </div>
+              <div class="form-group">
+                <label for="herb">Herb of Interest</label>
+                <select id="herb" name="herb">
+                  <option value="" disabled selected>Select a herb...</option>
+                  <option>Sweet Basil</option>
+                  <option>Flat-Leaf Parsley</option>
+                  <option>Mint</option>
+                  <option>Coriander / Cilantro</option>
+                  <option>Rosemary</option>
+                  <option>Thyme</option>
+                  <option>Dill</option>
+                  <option>Chives</option>
+                  <option>Multiple / Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="messageBox">Export Requirements *</label>
+              <textarea rows="4" id="messageBox" name="message" placeholder="Tell us about your needs — volumes, packaging, destination, certifications..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full" id="submitBtn">
+              <span>Send Inquiry</span>
+              <span class="btn-ico">✈️</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ========== FOOTER ========== -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="images/logo_2.png" alt="Extropica Fresh" class="footer-logo">
+        <p>We grow and export premium fresh herbs from our own farms in Ruai and Karen, Nairobi — single-origin, traceable, and cold-chain fresh, delivered worldwide.</p>
+        <div class="social-links footer-social">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="WhatsApp">✆</a>
+        </div>
+      </div>
+      <div class="footer-links-group">
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="about.html">Our Story</a>
+          <a href="export.html">Export</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h5>Our Herbs</h5>
+          <a href="products.html">Basil</a>
+          <a href="products.html">Parsley</a>
+          <a href="products.html">Mint</a>
+          <a href="products.html">Coriander</a>
+          <a href="products.html">Rosemary</a>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <div class="footer-contact-item"><span class="ico">📍</span><span>Ruai &amp; Karen, Nairobi, Kenya</span></div>
+          <div class="footer-contact-item"><span class="ico">📞</span><span>[ADD REAL NUMBER]</span></div>
+          <div class="footer-contact-item"><span class="ico">✉️</span><span>info@extropica.ke</span></div>
+          <div class="footer-contact-item"><span class="ico">🌐</span><span>extropica.ke</span></div>
+        </div>
+        <div class="footer-col">
+          <h5>Seasonal Updates</h5>
+          <p class="footer-sub-text">Get harvest news and availability for the season delivered to your inbox.</p>
+          <div class="subscribe-form">
+            <input type="email" id="newsEmail" placeholder="Your email address" class="subscribe-input">
+            <button id="newsBtn" class="subscribe-btn" aria-label="Subscribe">→</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="copyright">&copy; <span id="year"></span> Extropica Fresh Limited — Grown in Kenya. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="export.html">Export</a>
+        <a href="about.html">Our Story</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div id="toastMsg" class="toast-msg"></div>
+
+<!-- Success modal -->
+<div id="successModal" class="success-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="successModalTitle">
+  <div class="success-modal">
+    <div class="success-modal-icon">
+      <div class="success-icon-ring"></div>
+      <span class="check">✓</span>
+    </div>
+    <h3 id="successModalTitle">Inquiry Sent!</h3>
+    <p>Thank you for reaching out. The <strong>Extropica Fresh</strong> export team has received your inquiry and will be in touch within <strong>24 hours</strong>.</p>
+    <div class="success-modal-meta">
+      <span>✉️ info@extropica.ke</span>
+      <span>🕐 Response within 24 hrs</span>
+    </div>
+    <button class="success-modal-close" id="closeSuccessModal">Got it, thanks!</button>
+  </div>
+</div>
+
+<script src="js/fresh-ghalaco.js"></script>
+</body>
+</html>
