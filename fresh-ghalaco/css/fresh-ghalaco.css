@@ -529,3 +529,43 @@ footer { background: var(--green-deep); color: rgba(255,255,255,0.72); padding: 
   .footer-links-group { grid-template-columns: 1fr; }
   .footer-cta-inner { flex-direction: column; align-items: flex-start; text-align: left; }
 }
+
+/* ─── Touch devices: tap feedback + always-visible content ── */
+@media (hover: none) {
+  .category-card,
+  .feature-card,
+  .process-step,
+  .reach-stat-card,
+  .contact-detail-item,
+  .social-links a,
+  .btn-primary,
+  .btn-ghost,
+  .btn-nav-cta,
+  .footer-cta-btn {
+    -webkit-tap-highlight-color: transparent;
+  }
+  /* Tap = quick pop + shadow */
+  .category-card:active { transform: scale(0.97); box-shadow: var(--shadow); transition: transform 0.12s ease; }
+  .feature-card:active { transform: scale(0.97); box-shadow: var(--shadow); transition: transform 0.12s ease; }
+  .process-step:active { transform: scale(0.97); box-shadow: var(--shadow); transition: transform 0.12s ease; }
+  .reach-stat-card:active { transform: scale(0.97); transition: transform 0.12s ease; }
+  .btn-primary:active { transform: scale(0.95); transition: transform 0.12s ease; }
+  .btn-ghost:active { transform: scale(0.95); background: var(--green-pale); transition: transform 0.12s ease; }
+  .footer-cta-btn:active { transform: scale(0.96); transition: transform 0.12s ease; }
+  .social-links a:active { background: var(--green-light); transform: scale(0.92); }
+  /* Category cards: show gradient on tap, not hover */
+  .category-card:active::before { opacity: 1; }
+  .category-card:active h4,
+  .category-card:active .cat-volume { color: var(--white); }
+  .category-card:active .cat-icon-wrap { background: rgba(255,255,255,0.2); }
+  .category-card:active .cat-badge { background: var(--white); color: var(--green-dark); }
+  /* Cards get subtle resting shadow so they look tappable */
+  .category-card,
+  .feature-card,
+  .process-step { box-shadow: var(--shadow-sm); }
+  /* Smoother animations on mobile GPU */
+  .orbit-ring,
+  .floating-fruit-img,
+  .particle,
+  .ticker-wrapper { will-change: transform; }
+}

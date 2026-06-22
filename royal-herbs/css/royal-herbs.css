@@ -916,3 +916,39 @@ ul   { list-style: none; }
   .hero-btns { flex-direction: column; align-items: center; }
   .hero-btns .btn { width: 100%; max-width: 280px; justify-content: center; }
 }
+
+/* ─── Touch devices: tap feedback + always-visible content ── */
+@media (hover: none) {
+  /* Herb cards: show info by default since there's no hover */
+  .herb-card .herb-info { transform: translateY(0); }
+  .herb-card .herb-origin { opacity: 1; max-height: 40px; margin-top: 0.3rem; }
+  .herb-card::after { background: linear-gradient(to top, rgba(13,61,28,0.88) 0%, rgba(30,126,52,0.45) 60%, transparent 100%); }
+  /* Tap feedback on herb cards */
+  .herb-card:active .herb-bg { transform: scale(1.06) rotate(2deg); transition: transform 0.15s ease; }
+  /* Tap feedback on all card types */
+  .highlight-card:active,
+  .process-card:active,
+  .value-card:active,
+  .pack-card:active,
+  .export-card:active,
+  .contact-box:active { transform: scale(0.97); box-shadow: 0 10px 24px rgba(0,0,0,0.1); transition: transform 0.12s ease; }
+  /* Buttons */
+  .btn:active { transform: scale(0.95); transition: transform 0.12s ease; }
+  /* Remove webkit tap highlight */
+  .herb-card,
+  .highlight-card,
+  .process-card,
+  .value-card,
+  .pack-card,
+  .export-card,
+  .contact-box,
+  .btn { -webkit-tap-highlight-color: transparent; }
+  /* Resting shadows so cards look interactive */
+  .highlight-card,
+  .process-card,
+  .value-card,
+  .pack-card,
+  .export-card { box-shadow: 0 4px 14px rgba(0,0,0,0.06); }
+  /* Smoother mobile animations */
+  .hero-leaf { will-change: transform; }
+}
