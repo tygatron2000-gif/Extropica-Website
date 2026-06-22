@@ -1,374 +1,132 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Products — Extropica Fresh</title>
-  <meta name="description" content="Browse Extropica Fresh's full catalog of premium exported fresh herbs — basil, parsley, mint, coriander, rosemary, and more." />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231e7e34'/><text y='24' x='4' font-size='22'>🌿</text></svg>" />
-  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="Extropica Fresh's full catalog of premium herbs — basil, parsley, mint, coriander, rosemary, thyme, dill, and chives — all grown on our own farms in Ruai and Karen, Nairobi.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230c3b22'/><text y='25' x='5' font-size='22'>🌿</text></svg>">
+  <link rel="stylesheet" href="css/signature.css">
 </head>
 <body>
 
-  <!-- ═══ NAVIGATION ═══════════════════════════ -->
-  <nav id="navbar">
-    <div class="container nav-inner">
-      <a href="index.html" class="nav-logo">
-        <img src="images/logo_2.png" alt="Extropica Fresh Limited" class="nav-logo-img">
-        <span class="nav-logo-text">Extropica <strong>Fresh</strong></span>
+  <div class="progress"></div>
+
+  <header class="site-header">
+    <div class="wrap hd-inner">
+      <a href="index.html" class="brand">
+        <img src="images/logo_2.png" alt="Extropica Fresh Limited">
+        <span class="brand-text"><span class="brand-name">Extropica Fresh</span><span class="brand-sub">Grown in Kenya</span></span>
       </a>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html" class="active">Products</a></li>
-        <li><a href="about.html">Our Story</a></li>
-        <li><a href="export.html">Export</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <a href="contact.html" class="btn btn-primary nav-cta">Request a Quote</a>
-      <button class="hamburger" aria-label="Toggle menu">
-        <span></span><span></span><span></span>
-      </button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">Our Story</a>
+        <a href="export.html">Export</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="hd-cta"><a href="contact.html" class="btn btn-solid" data-magnetic>Request a Quote <span class="arr">→</span></a></div>
+      <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
-    <div class="mobile-menu">
-      <a href="index.html">Home</a>
-      <a href="products.html">Products</a>
-      <a href="about.html">Our Story</a>
-      <a href="export.html">Export</a>
-      <a href="contact.html">Contact</a>
-      <a href="contact.html" class="btn btn-primary nav-cta">Request a Quote</a>
-    </div>
+  </header>
+
+  <nav class="mobile-nav" aria-label="Mobile">
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">Our Story</a>
+    <a href="export.html">Export</a>
+    <a href="contact.html">Contact</a>
+    <div class="m-foot"><a href="mailto:info@extropica.ke">info@extropica.ke</a><br>Ruai &amp; Karen, Nairobi, Kenya</div>
   </nav>
 
-  <!-- ═══ PAGE HERO ════════════════════════════ -->
-  <div class="page-hero">
-    <div class="container">
-      <h1>Our Fresh Herb Catalog</h1>
-      <p>Premium-quality herbs exported fresh to buyers worldwide — grown to the highest standards.</p>
-    </div>
-  </div>
+  <main>
 
-  <!-- ═══ PRODUCTS SECTION ═════════════════════ -->
-  <section id="products">
-    <div class="container">
-
-      <!-- Filter Tabs -->
-      <div class="filter-tabs">
-        <button class="filter-btn active" data-filter="all">All Herbs</button>
-        <button class="filter-btn" data-filter="culinary">Culinary</button>
-        <button class="filter-btn" data-filter="aromatic">Aromatic</button>
-        <button class="filter-btn" data-filter="medicinal">Medicinal</button>
-        <button class="filter-btn" data-filter="organic">Organic</button>
+    <header class="page-head">
+      <span class="hero-blob b1"></span>
+      <div class="wrap">
+        <div class="crumbs"><a href="index.html">Home</a> <span>/</span> <span>Products</span></div>
+        <h1>Our fresh herbs</h1>
+        <p class="ph-sub">Every herb below is grown on our own farms in Ruai &amp; Karen, Nairobi — single-origin, fully traceable, and cold-chain fresh.</p>
       </div>
+    </header>
 
-      <!-- Products Grid -->
-      <div class="products-grid">
-
-        <!-- Basil -->
-        <div class="product-card reveal" data-category="culinary">
-          <div class="product-img">
-            🌿
-            <span class="product-season">In Season</span>
-          </div>
-          <div class="product-info">
-            <h3>Sweet Basil</h3>
-            <div class="origin">📍 Mediterranean Farms</div>
-            <p>Large, fragrant leaves ideal for pesto, sauces, and gourmet salads. Our most-exported variety — available year-round from our partner farms.</p>
-            <div class="product-tags">
-              <span class="tag">Organic Option</span>
-              <span class="tag">Air & Sea</span>
-              <span class="tag">Retail Bunches</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Thai Basil -->
-        <div class="product-card reveal" data-category="culinary">
-          <div class="product-img">
-            🌱
-            <span class="product-season">In Season</span>
-          </div>
-          <div class="product-info">
-            <h3>Thai Basil</h3>
-            <div class="origin">📍 Southeast Asian Farms</div>
-            <p>Distinctive anise-like flavour with purple stems — a staple in Asian cuisines and increasingly popular in European restaurant markets.</p>
-            <div class="product-tags">
-              <span class="tag">Culinary</span>
-              <span class="tag">Air Freight</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Flat-leaf Parsley -->
-        <div class="product-card reveal" data-category="culinary">
-          <div class="product-img">
-            🍃
-            <span class="product-season">In Season</span>
-          </div>
-          <div class="product-info">
-            <h3>Flat-Leaf Parsley</h3>
-            <div class="origin">📍 North African Farms</div>
-            <p>Tender, bright Italian parsley in retail bunches or bulk cartons — a year-round staple for European and Middle Eastern kitchens.</p>
-            <div class="product-tags">
-              <span class="tag">Year-Round</span>
-              <span class="tag">Bulk & Retail</span>
-              <span class="tag">Organic Option</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Curly Parsley -->
-        <div class="product-card reveal" data-category="culinary">
-          <div class="product-img">
-            🌿
-            <span class="product-season">In Season</span>
-          </div>
-          <div class="product-info">
-            <h3>Curly Parsley</h3>
-            <div class="origin">📍 European Farms</div>
-            <p>Classic curly parsley preferred for garnishing and food-service use — consistently vibrant colour and crisp texture.</p>
-            <div class="product-tags">
-              <span class="tag">Garnish Grade</span>
-              <span class="tag">Food Service</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Spearmint -->
-        <div class="product-card reveal" data-category="aromatic">
-          <div class="product-img">
-            🌱
-            <span class="product-season">In Season</span>
-          </div>
-          <div class="product-info">
-            <h3>Spearmint</h3>
-            <div class="origin">📍 Highland Farms</div>
-            <p>Fresh, sweet mint for beverage production, confectionery, and culinary applications — exported in chilled bunches and bulk boxes.</p>
-            <div class="product-tags">
-              <span class="tag">Aromatic</span>
-              <span class="tag">Beverage Grade</span>
-              <span class="tag">Bulk Available</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Peppermint -->
-        <div class="product-card reveal" data-category="aromatic medicinal">
-          <div class="product-img">
-            🍃
-            <span class="product-season">In Season</span>
-          </div>
-          <div class="product-info">
-            <h3>Peppermint</h3>
-            <div class="origin">📍 Highland Farms</div>
-            <p>High-menthol peppermint grown for herbal tea producers, pharmaceutical companies, and natural health product manufacturers.</p>
-            <div class="product-tags">
-              <span class="tag">High Menthol</span>
-              <span class="tag">Medicinal Grade</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Coriander / Cilantro -->
-        <div class="product-card reveal" data-category="culinary">
-          <div class="product-img">
-            🌿
-            <span class="product-season">In Season</span>
-          </div>
-          <div class="product-info">
-            <h3>Coriander (Cilantro)</h3>
-            <div class="origin">📍 East African Farms</div>
-            <p>Vibrant fresh coriander for Asian, Latin, and Middle Eastern markets — available as full-leaf, root-on, or trimmed bunches.</p>
-            <div class="product-tags">
-              <span class="tag">Root-On Available</span>
-              <span class="tag">Year-Round</span>
-              <span class="tag">Retail</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Rosemary -->
-        <div class="product-card reveal" data-category="culinary aromatic">
-          <div class="product-img">
-            🌱
-            <span class="product-season">In Season</span>
-          </div>
-          <div class="product-info">
-            <h3>Rosemary</h3>
-            <div class="origin">📍 Mediterranean Farms</div>
-            <p>Robust, fragrant rosemary sprigs for culinary, cosmetics, and essential oil industries. Exported in clamshell and bulk packaging.</p>
-            <div class="product-tags">
-              <span class="tag">Culinary</span>
-              <span class="tag">Cosmetic Grade</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Thyme -->
-        <div class="product-card reveal" data-category="culinary aromatic">
-          <div class="product-img">
-            🍃
-            <span class="product-season">In Season</span>
-          </div>
-          <div class="product-info">
-            <h3>Thyme</h3>
-            <div class="origin">📍 Mediterranean Farms</div>
-            <p>Fine fresh thyme bundles for professional kitchens, butcheries, and food manufacturers who need consistent flavour and aroma.</p>
-            <div class="product-tags">
-              <span class="tag">Culinary</span>
-              <span class="tag">Food Manufacturing</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Dill -->
-        <div class="product-card reveal" data-category="culinary">
-          <div class="product-img">
-            🌿
-            <span class="product-season">In Season</span>
-          </div>
-          <div class="product-info">
-            <h3>Fresh Dill</h3>
-            <div class="origin">📍 Scandinavian & Eastern European Farms</div>
-            <p>Delicate, feathery dill weed — exported fresh to fish processors, pickle manufacturers, and premium grocery chains.</p>
-            <div class="product-tags">
-              <span class="tag">Fish & Seafood</span>
-              <span class="tag">Pickle Industry</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Lemon Verbena -->
-        <div class="product-card reveal" data-category="aromatic medicinal organic">
-          <div class="product-img">
-            🌱
-            <span class="product-season">In Season</span>
-          </div>
-          <div class="product-info">
-            <h3>Lemon Verbena</h3>
-            <div class="origin">📍 South American Farms</div>
-            <p>Intensely citrus-scented herb used in herbal teas, cocktails, and natural cosmetics — certified organic batches available.</p>
-            <div class="product-tags">
-              <span class="tag">Certified Organic</span>
-              <span class="tag">Herbal Tea</span>
-              <span class="tag">Cosmetic Grade</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Chives -->
-        <div class="product-card reveal" data-category="culinary organic">
-          <div class="product-img">
-            🍃
-            <span class="product-season">In Season</span>
-          </div>
-          <div class="product-info">
-            <h3>Chives</h3>
-            <div class="origin">📍 European Farms</div>
-            <p>Fresh-cut chives for gourmet food service, ready-meal manufacturers, and supermarket fresh-herb ranges across Europe.</p>
-            <div class="product-tags">
-              <span class="tag">Food Service</span>
-              <span class="tag">Supermarket Ready</span>
-              <span class="tag">Organic Option</span>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══ PACKAGING INFO ════════════════════════ -->
-  <section style="background:var(--green-pale);padding:4.5rem 0">
-    <div class="container">
-      <div style="text-align:center;margin-bottom:3rem" class="reveal">
-        <span class="section-label">Packaging & Logistics</span>
-        <h2 class="section-title">Packed for Freshness</h2>
-        <p class="section-sub" style="margin:0.75rem auto 0">
-          We offer a range of packaging formats to suit retail, food service, and industrial buyers.
-        </p>
-      </div>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem">
-
-        <div class="why-card reveal" style="background:var(--white);border-color:#ddd;color:var(--black)">
-          <div class="why-icon">🧺</div>
-          <h3 style="color:var(--black)">Retail Bunches</h3>
-          <p style="color:var(--gray-mid)">Pre-banded or twist-tied bunches with private-label options for supermarkets.</p>
-        </div>
-
-        <div class="why-card reveal" style="background:var(--white);border-color:#ddd;color:var(--black)">
-          <div class="why-icon">📦</div>
-          <h3 style="color:var(--black)">Bulk Cartons</h3>
-          <p style="color:var(--gray-mid)">Ventilated 3 kg – 10 kg cartons for wholesale buyers and food manufacturers.</p>
-        </div>
-
-        <div class="why-card reveal" style="background:var(--white);border-color:#ddd;color:var(--black)">
-          <div class="why-icon">🫙</div>
-          <h3 style="color:var(--black)">Clamshell Trays</h3>
-          <p style="color:var(--gray-mid)">Consumer-ready clamshells (20–100 g) for premium grocery and specialty stores.</p>
-        </div>
-
-        <div class="why-card reveal" style="background:var(--white);border-color:#ddd;color:var(--black)">
-          <div class="why-icon">🏷️</div>
-          <h3 style="color:var(--black)">Private Label</h3>
-          <p style="color:var(--gray-mid)">We print your brand on any packaging format — MOQs apply, contact us for details.</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══ CTA BAND ══════════════════════════════ -->
-  <section style="background:var(--black);padding:4rem 0;text-align:center">
-    <div class="container reveal">
-      <h2 style="font-size:clamp(1.6rem,4vw,2.4rem);font-weight:900;color:#fff;margin-bottom:0.75rem">
-        Interested in a Specific Herb?
-      </h2>
-      <p style="color:rgba(255,255,255,0.7);margin-bottom:2rem">
-        Tell us what you need — volume, packaging, certification — and we'll send a custom quote within 24 hours.
-      </p>
-      <a href="contact.html" class="btn btn-primary" style="font-size:1rem;padding:0.85rem 2.5rem">
-        Request a Quote
-      </a>
-    </div>
-  </section>
-
-  <!-- ═══ FOOTER ════════════════════════════════ -->
-  <footer>
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="nav-logo">
-            <img src="images/logo_2.png" alt="Extropica Fresh Limited" class="nav-logo-img">
-        <span class="nav-logo-text">Extropica <strong>Fresh</strong></span>
-          </a>
-          <p>Premium fresh herb exporters connecting quality farms with global markets — reliably, sustainably, and with full traceability.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Quick Links</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Our Herbs</h4>
-          <ul>
-            <li><a href="products.html">Basil</a></li>
-            <li><a href="products.html">Parsley</a></li>
-            <li><a href="products.html">Mint</a></li>
-            <li><a href="products.html">Coriander</a></li>
-            <li><a href="products.html">Rosemary</a></li>
-          </ul>
+    <section class="section">
+      <div class="wrap">
+        <div class="herb-grid">
+          <article class="herb" data-reveal><span class="herb-num">01</span><span class="herb-emoji">🌿</span><h3>Sweet Basil</h3><div class="origin">📍 Ruai &amp; Karen, Nairobi</div></article>
+          <article class="herb" data-reveal data-delay="0.05"><span class="herb-num">02</span><span class="herb-emoji">🍃</span><h3>Flat-Leaf Parsley</h3><div class="origin">📍 Ruai &amp; Karen, Nairobi</div></article>
+          <article class="herb" data-reveal data-delay="0.1"><span class="herb-num">03</span><span class="herb-emoji">🌱</span><h3>Mint</h3><div class="origin">📍 Ruai &amp; Karen, Nairobi</div></article>
+          <article class="herb" data-reveal data-delay="0.15"><span class="herb-num">04</span><span class="herb-emoji">🌿</span><h3>Coriander</h3><div class="origin">📍 Ruai &amp; Karen, Nairobi</div></article>
+          <article class="herb" data-reveal><span class="herb-num">05</span><span class="herb-emoji">🌿</span><h3>Rosemary</h3><div class="origin">📍 Ruai &amp; Karen, Nairobi</div></article>
+          <article class="herb" data-reveal data-delay="0.05"><span class="herb-num">06</span><span class="herb-emoji">🍃</span><h3>Thyme</h3><div class="origin">📍 Ruai &amp; Karen, Nairobi</div></article>
+          <article class="herb" data-reveal data-delay="0.1"><span class="herb-num">07</span><span class="herb-emoji">🌱</span><h3>Dill</h3><div class="origin">📍 Ruai &amp; Karen, Nairobi</div></article>
+          <article class="herb" data-reveal data-delay="0.15"><span class="herb-num">08</span><span class="herb-emoji">🌿</span><h3>Chives</h3><div class="origin">📍 Ruai &amp; Karen, Nairobi</div></article>
         </div>
       </div>
-      <div class="footer-bottom">
-        <span>&copy; 2026 Extropica Fresh. All rights reserved.</span>
-        <span>Built for global fresh herb trade.</span>
+    </section>
+
+    <section class="section paper">
+      <div class="wrap">
+        <div class="sec-head center" data-reveal>
+          <span class="eyebrow">Packaging &amp; Logistics</span>
+          <h2>Packed for freshness</h2>
+          <p>Choose the format that fits your market — from consumer-ready clamshells to bulk export cartons.</p>
+        </div>
+        <div class="card-grid">
+          <div class="s-card" data-reveal><div class="s-ico">🧺</div><h3>Retail Bunches</h3><p>Pre-banded or twist-tied bunches with private-label options for supermarkets and fresh markets.</p></div>
+          <div class="s-card" data-reveal data-delay="0.05"><div class="s-ico">📦</div><h3>Bulk Cartons</h3><p>Ventilated cartons for wholesale buyers and food manufacturers, sized to your specification.</p></div>
+          <div class="s-card" data-reveal data-delay="0.1"><div class="s-ico">🫙</div><h3>Clamshell Trays</h3><p>Consumer-ready clamshells for premium grocery and specialty stores.</p></div>
+          <div class="s-card" data-reveal data-delay="0.15"><div class="s-ico">🏷️</div><h3>Private Label</h3><p>Your brand printed on any format — minimum order quantities apply, contact us for details.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <div class="wrap">
+        <div class="cta-card" data-reveal>
+          <span class="blob"></span>
+          <h2>Interested in a <span class="serif">specific herb?</span></h2>
+          <p>Tell us the variety, volume, packaging, and destination — we'll send a tailored quote.</p>
+          <div class="hero-actions"><a href="contact.html" class="btn btn-green" data-magnetic>Request a quote <span class="arr">→</span></a></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot-top">
+        <div class="foot-brand">
+          <img src="images/logo_2.png" alt="Extropica Fresh">
+          <p>We grow and export premium fresh herbs from our own farms in Ruai &amp; Karen, Nairobi — single-origin, traceable, and cold-chain fresh.</p>
+          <div class="foot-soc"><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="WhatsApp">✆</a></div>
+        </div>
+        <div class="foot-col">
+          <h4>Explore</h4>
+          <a href="index.html">Home</a><a href="products.html">Products</a><a href="about.html">Our Story</a><a href="export.html">Export</a><a href="contact.html">Contact</a>
+        </div>
+        <div class="foot-col">
+          <h4>Contact</h4>
+          <span class="fline">Ruai &amp; Karen, Nairobi, Kenya</span>
+          <a href="mailto:info@extropica.ke">info@extropica.ke</a>
+          <span class="fline">[ADD REAL NUMBER]</span>
+          <span class="fline">Mon–Fri · 08:00–17:00 (UTC+3)</span>
+        </div>
+        <div class="foot-news">
+          <h4>Seasonal Updates</h4>
+          <p>Harvest news and availability, straight to your inbox.</p>
+          <form class="news-form"><input type="email" placeholder="Your email address" aria-label="Email"><button type="submit" aria-label="Subscribe">→</button></form>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>&copy; <span id="year"></span> Extropica Fresh Limited — Grown in Kenya.</span>
+        <div class="links"><a href="export.html">Export</a><a href="about.html">Our Story</a><a href="contact.html">Contact</a></div>
       </div>
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <div class="toast"></div>
+  <script src="js/signature.js"></script>
 </body>
 </html>
