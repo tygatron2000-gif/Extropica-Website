@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" fill="none">
+  <rect width="400" height="520" fill="#e8f5e9"/>
+  <ellipse cx="200" cy="480" rx="120" ry="18" fill="#c8e6c9" opacity="0.6"/>
+  <!-- stem -->
+  <path d="M200 470 C200 380, 195 300, 200 200" stroke="#2e7d32" stroke-width="5" fill="none"/>
+  <path d="M200 350 C185 340, 170 330, 175 310" stroke="#388e3c" stroke-width="3" fill="none"/>
+  <path d="M200 300 C215 290, 230 280, 225 260" stroke="#388e3c" stroke-width="3" fill="none"/>
+  <!-- leaves -->
+  <ellipse cx="155" cy="280" rx="45" ry="28" fill="#43a047" transform="rotate(-25 155 280)"/>
+  <ellipse cx="155" cy="280" rx="45" ry="28" fill="#66bb6a" transform="rotate(-25 155 280)" opacity="0.4"/>
+  <path d="M130 290 Q155 270 180 290" stroke="#2e7d32" stroke-width="1.5" fill="none" transform="rotate(-25 155 280)"/>
+
+  <ellipse cx="245" cy="250" rx="48" ry="30" fill="#388e3c" transform="rotate(20 245 250)"/>
+  <ellipse cx="245" cy="250" rx="48" ry="30" fill="#66bb6a" transform="rotate(20 245 250)" opacity="0.3"/>
+  <path d="M218 260 Q245 238 272 260" stroke="#1b5e20" stroke-width="1.5" fill="none" transform="rotate(20 245 250)"/>
+
+  <ellipse cx="165" cy="210" rx="50" ry="32" fill="#4caf50" transform="rotate(-15 165 210)"/>
+  <ellipse cx="165" cy="210" rx="50" ry="32" fill="#81c784" transform="rotate(-15 165 210)" opacity="0.35"/>
+  <path d="M138 222 Q165 198 192 222" stroke="#2e7d32" stroke-width="1.5" fill="none" transform="rotate(-15 165 210)"/>
+
+  <ellipse cx="240" cy="180" rx="46" ry="29" fill="#43a047" transform="rotate(22 240 180)"/>
+  <ellipse cx="240" cy="180" rx="46" ry="29" fill="#a5d6a7" transform="rotate(22 240 180)" opacity="0.3"/>
+  <path d="M215 190 Q240 168 265 190" stroke="#2e7d32" stroke-width="1.5" fill="none" transform="rotate(22 240 180)"/>
+
+  <!-- top cluster -->
+  <ellipse cx="185" cy="145" rx="42" ry="26" fill="#66bb6a" transform="rotate(-10 185 145)"/>
+  <path d="M162 155 Q185 135 208 155" stroke="#388e3c" stroke-width="1.2" fill="none" transform="rotate(-10 185 145)"/>
+
+  <ellipse cx="215" cy="120" rx="38" ry="24" fill="#4caf50" transform="rotate(8 215 120)"/>
+  <path d="M195 130 Q215 112 235 130" stroke="#2e7d32" stroke-width="1.2" fill="none" transform="rotate(8 215 120)"/>
+
+  <ellipse cx="195" cy="95" rx="32" ry="20" fill="#81c784" transform="rotate(-5 195 95)"/>
+  <path d="M178 103 Q195 88 212 103" stroke="#388e3c" stroke-width="1" fill="none" transform="rotate(-5 195 95)"/>
+</svg>

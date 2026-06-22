@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" fill="none">
+  <rect width="400" height="520" fill="#e8f5e9"/>
+  <ellipse cx="200" cy="480" rx="100" ry="14" fill="#c8e6c9" opacity="0.5"/>
+  <!-- main stem -->
+  <path d="M200 470 C200 420, 200 350, 200 260 C200 200, 200 150, 200 90" stroke="#558b2f" stroke-width="4" fill="none"/>
+  <!-- dill: feathery, wispy fronds branching off the stem -->
+  <!-- bottom fronds -->
+  <g opacity="0.9">
+    <path d="M200 400 C180 390, 145 380, 120 365" stroke="#689f38" stroke-width="2" fill="none"/>
+    <path d="M160 385 C148 378, 130 368, 118 358" stroke="#7cb342" stroke-width="1" fill="none"/>
+    <path d="M145 380 C138 372, 125 362, 112 352" stroke="#8bc34a" stroke-width="0.8" fill="none"/>
+    <path d="M170 388 C160 380, 142 368, 128 355" stroke="#689f38" stroke-width="0.8" fill="none"/>
+  </g>
+  <g opacity="0.9">
+    <path d="M200 400 C220 390, 255 380, 280 365" stroke="#689f38" stroke-width="2" fill="none"/>
+    <path d="M240 385 C252 378, 270 368, 282 358" stroke="#7cb342" stroke-width="1" fill="none"/>
+    <path d="M255 380 C262 372, 275 362, 288 352" stroke="#8bc34a" stroke-width="0.8" fill="none"/>
+    <path d="M230 388 C240 380, 258 368, 272 355" stroke="#689f38" stroke-width="0.8" fill="none"/>
+  </g>
+  <!-- middle fronds -->
+  <g opacity="0.95">
+    <path d="M200 340 C175 328, 132 315, 105 298" stroke="#7cb342" stroke-width="2.2" fill="none"/>
+    <path d="M155 325 C140 316, 118 304, 100 292" stroke="#8bc34a" stroke-width="1.2" fill="none"/>
+    <path d="M140 320 C130 312, 112 300, 95 288" stroke="#9ccc65" stroke-width="0.8" fill="none"/>
+    <path d="M168 328 C155 320, 135 308, 115 295" stroke="#7cb342" stroke-width="0.8" fill="none"/>
+    <path d="M130 316 C122 308, 108 298, 92 285" stroke="#aed581" stroke-width="0.6" fill="none"/>
+  </g>
+  <g opacity="0.95">
+    <path d="M200 340 C225 328, 268 315, 295 298" stroke="#7cb342" stroke-width="2.2" fill="none"/>
+    <path d="M245 325 C260 316, 282 304, 300 292" stroke="#8bc34a" stroke-width="1.2" fill="none"/>
+    <path d="M260 320 C270 312, 288 300, 305 288" stroke="#9ccc65" stroke-width="0.8" fill="none"/>
+    <path d="M232 328 C245 320, 265 308, 285 295" stroke="#7cb342" stroke-width="0.8" fill="none"/>
+  </g>
+  <!-- upper fronds -->
+  <g>
+    <path d="M200 275 C178 264, 140 252, 115 238" stroke="#8bc34a" stroke-width="2" fill="none"/>
+    <path d="M155 260 C142 252, 125 242, 110 232" stroke="#9ccc65" stroke-width="1" fill="none"/>
+    <path d="M140 256 C132 248, 118 240, 105 230" stroke="#aed581" stroke-width="0.7" fill="none"/>
+  </g>
+  <g>
+    <path d="M200 275 C222 264, 260 252, 285 238" stroke="#8bc34a" stroke-width="2" fill="none"/>
+    <path d="M245 260 C258 252, 275 242, 290 232" stroke="#9ccc65" stroke-width="1" fill="none"/>
+    <path d="M260 256 C268 248, 282 240, 295 230" stroke="#aed581" stroke-width="0.7" fill="none"/>
+  </g>
+  <!-- top fronds (smaller) -->
+  <g opacity="0.9">
+    <path d="M200 215 C182 206, 155 198, 138 188" stroke="#9ccc65" stroke-width="1.6" fill="none"/>
+    <path d="M165 202 C155 196, 142 188, 132 180" stroke="#aed581" stroke-width="0.8" fill="none"/>
+    <path d="M200 215 C218 206, 245 198, 262 188" stroke="#9ccc65" stroke-width="1.6" fill="none"/>
+    <path d="M235 202 C245 196, 258 188, 268 180" stroke="#aed581" stroke-width="0.8" fill="none"/>
+  </g>
+  <!-- crown -->
+  <circle cx="192" cy="100" r="3" fill="#c5e1a5"/>
+  <circle cx="200" cy="95" r="3.5" fill="#aed581"/>
+  <circle cx="208" cy="100" r="3" fill="#c5e1a5"/>
+  <circle cx="196" cy="88" r="2.5" fill="#dcedc8"/>
+  <circle cx="204" cy="88" r="2.5" fill="#dcedc8"/>
+</svg>

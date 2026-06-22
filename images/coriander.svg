@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" fill="none">
+  <rect width="400" height="520" fill="#e8f5e9"/>
+  <ellipse cx="200" cy="480" rx="110" ry="15" fill="#c8e6c9" opacity="0.5"/>
+  <!-- stems -->
+  <path d="M200 470 C198 420, 195 360, 192 300" stroke="#558b2f" stroke-width="4" fill="none"/>
+  <path d="M200 470 C204 415, 210 355, 215 290" stroke="#558b2f" stroke-width="3" fill="none"/>
+  <path d="M200 470 C195 425, 185 365, 175 310" stroke="#689f38" stroke-width="3" fill="none"/>
+  <!-- coriander: fan-shaped compound leaves with delicate lobes -->
+  <!-- leaf cluster 1 -->
+  <path d="M175 310 C155 290, 120 275, 105 255 C95 242, 100 230, 112 232 C108 222, 115 215, 125 220 C122 210, 132 205, 140 215 C145 208, 155 210, 155 220 C165 215, 172 222, 168 232 C175 232, 178 242, 170 248 C165 270, 172 295, 175 310Z" fill="#7cb342"/>
+  <path d="M175 310 L125 245" stroke="#558b2f" stroke-width="1" fill="none"/>
+  <path d="M125 245 L112 232" stroke="#558b2f" stroke-width="0.8" fill="none" opacity="0.6"/>
+  <path d="M125 245 L140 215" stroke="#558b2f" stroke-width="0.8" fill="none" opacity="0.6"/>
+  <path d="M125 245 L168 232" stroke="#558b2f" stroke-width="0.8" fill="none" opacity="0.6"/>
+  <!-- leaf cluster 2 -->
+  <path d="M215 290 C235 268, 270 250, 288 230 C298 218, 292 205, 280 208 C284 198, 278 190, 268 196 C270 185, 260 180, 252 190 C246 182, 236 185, 238 195 C228 190, 222 198, 228 208 C218 205, 215 215, 225 222 C230 245, 222 272, 215 290Z" fill="#8bc34a"/>
+  <path d="M215 290 L268 222" stroke="#558b2f" stroke-width="1" fill="none"/>
+  <path d="M268 222 L280 208" stroke="#558b2f" stroke-width="0.8" fill="none" opacity="0.6"/>
+  <path d="M268 222 L252 190" stroke="#558b2f" stroke-width="0.8" fill="none" opacity="0.6"/>
+  <path d="M268 222 L228 208" stroke="#558b2f" stroke-width="0.8" fill="none" opacity="0.6"/>
+  <!-- leaf cluster 3 (center top) -->
+  <path d="M192 300 C180 275, 165 250, 155 225 C148 210, 155 198, 168 202 C165 192, 175 185, 185 192 C185 182, 195 178, 200 188 C205 178, 215 182, 215 192 C225 185, 235 192, 232 202 C245 198, 252 210, 245 225 C235 250, 220 275, 208 300Z" fill="#9ccc65"/>
+  <path d="M200 300 L200 218" stroke="#689f38" stroke-width="1" fill="none"/>
+  <path d="M200 218 L168 202" stroke="#689f38" stroke-width="0.8" fill="none" opacity="0.5"/>
+  <path d="M200 218 L185 192" stroke="#689f38" stroke-width="0.8" fill="none" opacity="0.5"/>
+  <path d="M200 218 L215 192" stroke="#689f38" stroke-width="0.8" fill="none" opacity="0.5"/>
+  <path d="M200 218 L232 202" stroke="#689f38" stroke-width="0.8" fill="none" opacity="0.5"/>
+  <!-- upper small leaves -->
+  <path d="M188 250 C175 232, 152 220, 142 205 C135 192, 142 185, 152 190 C155 182, 165 180, 168 190 C175 185, 182 190, 178 198 C172 215, 182 238, 188 250Z" fill="#aed581"/>
+  <path d="M212 240 C225 222, 248 210, 258 195 C265 182, 258 175, 248 180 C245 172, 235 170, 232 180 C225 175, 218 180, 222 188 C228 205, 218 225, 212 240Z" fill="#c5e1a5" opacity="0.85"/>
+</svg>

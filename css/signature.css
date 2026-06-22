@@ -234,23 +234,16 @@ body.menu-open .mobile-nav a:nth-child(5) { transition-delay: 0.42s; }
   display: flex; flex-direction: column; justify-content: flex-end; padding: 1.5rem;
   color: #fff; isolation: isolate; transition: transform var(--t), box-shadow var(--t);
 }
-.herb::before { content: ''; position: absolute; inset: 0; z-index: -2; transition: transform 0.8s var(--ease); }
-.herb::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(to top, rgba(8,40,24,0.85), rgba(8,40,24,0.1) 55%, rgba(255,255,255,0.12)); }
-.herb:nth-child(8n+1)::before { background: linear-gradient(155deg, #2f9e44, #0c3b22); }
-.herb:nth-child(8n+2)::before { background: linear-gradient(155deg, #1e7e34, #0a2f1b); }
-.herb:nth-child(8n+3)::before { background: linear-gradient(155deg, #40c057, #145227); }
-.herb:nth-child(8n+4)::before { background: linear-gradient(155deg, #2b8a3e, #0c3b22); }
-.herb:nth-child(8n+5)::before { background: linear-gradient(155deg, #57c878, #1e7e34); }
-.herb:nth-child(8n+6)::before { background: linear-gradient(155deg, #248232, #0a2f1b); }
-.herb:nth-child(8n+7)::before { background: linear-gradient(155deg, #37b24d, #145227); }
-.herb:nth-child(8n+8)::before { background: linear-gradient(155deg, #2f9e44, #0c3b22); }
-.herb-emoji { position: absolute; top: 1.1rem; right: 1.1rem; font-size: 2.6rem; filter: drop-shadow(0 6px 12px rgba(0,0,0,0.25)); transition: transform var(--t); z-index: 1; }
-.herb-num { position: absolute; top: 1.3rem; left: 1.4rem; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; color: rgba(255,255,255,0.65); }
+.herb-img {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+  z-index: -2; transition: transform 0.8s var(--ease);
+}
+.herb::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(to top, rgba(8,40,24,0.92), rgba(8,40,24,0.35) 50%, rgba(8,40,24,0.05) 100%); }
+.herb-num { position: absolute; top: 1.3rem; left: 1.4rem; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.1em; color: rgba(255,255,255,0.65); z-index: 1; }
 .herb h3 { font-size: 1.35rem; font-weight: 800; }
 .herb .origin { display: flex; align-items: center; gap: 0.4rem; font-size: 0.82rem; color: rgba(255,255,255,0.82); margin-top: 0.45rem; }
 .herb:hover { transform: translateY(-8px); box-shadow: var(--shadow-lg); }
-.herb:hover::before { transform: scale(1.12); }
-.herb:hover .herb-emoji { transform: scale(1.15) rotate(-6deg); }
+.herb:hover .herb-img { transform: scale(1.08); }
 
 /* ─── Bento (Why Extropica) ───────────────────────────────── */
 .bento { display: grid; grid-template-columns: repeat(3, 1fr); grid-auto-rows: minmax(200px, auto); gap: 1.4rem; }
