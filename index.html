@@ -26,6 +26,9 @@
     .card h2 { font-size: 1.5rem; margin-bottom: 0.5rem; }
     .card p { color: rgba(255,255,255,0.65); font-size: 0.92rem; line-height: 1.6; }
     .card .arrow { display: inline-block; margin-top: 1.2rem; font-size: 1.1rem; color: #28a745; font-weight: 700; }
+    .card.featured { background: linear-gradient(155deg, rgba(87,200,120,0.22), rgba(255,255,255,0.06)); border-color: rgba(87,200,120,0.5); grid-column: 1 / -1; }
+    .card.featured .card-num { color: #8fe0a6; }
+    .badge-new { display: inline-block; margin-left: 0.5rem; font-size: 0.6rem; vertical-align: middle; background: #57c878; color: #0c3b22; padding: 0.15rem 0.5rem; border-radius: 100px; letter-spacing: 0.1em; }
     .footer-note { margin-top: 3rem; font-size: 0.82rem; color: rgba(255,255,255,0.35); text-align: center; }
   </style>
 </head>
@@ -33,6 +36,12 @@
   <h1>Extropica Fresh</h1>
   <p class="subtitle">Design candidates — pick one to preview</p>
   <div class="grid">
+    <a href="signature/index.html" class="card featured">
+      <div class="card-num">Signature <span class="badge-new">NEW</span></div>
+      <h2>Extropica Signature</h2>
+      <p>An original premium design — editorial hero with arch-masked imagery, bento grid, a scroll-filling process timeline, parallax, and refined motion throughout. Built to wow.</p>
+      <span class="arrow">View &rarr;</span>
+    </a>
     <a href="original/index.html" class="card">
       <div class="card-num">Original</div>
       <h2>Extropica v1</h2>
