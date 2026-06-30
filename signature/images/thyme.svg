@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" fill="none">
+  <rect width="400" height="520" fill="#f1f8e9"/>
+  <ellipse cx="200" cy="480" rx="110" ry="15" fill="#dcedc8" opacity="0.5"/>
+  <!-- multiple thin stems (thyme grows in sprigs) -->
+  <path d="M180 470 C178 410, 172 340, 165 260 C160 200, 158 160, 160 110" stroke="#5d4037" stroke-width="3" fill="none"/>
+  <path d="M210 470 C212 405, 218 335, 225 255 C230 195, 235 155, 232 105" stroke="#6d4c41" stroke-width="2.8" fill="none"/>
+  <path d="M200 470 C198 415, 195 350, 195 280 C195 220, 198 165, 200 120" stroke="#5d4037" stroke-width="2.5" fill="none"/>
+  <!-- tiny oval leaves along each stem -->
+  <!-- left stem leaves -->
+  <ellipse cx="155" cy="400" rx="12" ry="7" fill="#558b2f" transform="rotate(-30 155 400)"/>
+  <ellipse cx="175" cy="395" rx="11" ry="6" fill="#689f38" transform="rotate(25 175 395)"/>
+  <ellipse cx="152" cy="360" rx="13" ry="7" fill="#7cb342" transform="rotate(-35 152 360)"/>
+  <ellipse cx="178" cy="355" rx="11" ry="6.5" fill="#558b2f" transform="rotate(20 178 355)"/>
+  <ellipse cx="148" cy="320" rx="12" ry="7" fill="#689f38" transform="rotate(-28 148 320)"/>
+  <ellipse cx="175" cy="315" rx="11" ry="6" fill="#7cb342" transform="rotate(22 175 315)"/>
+  <ellipse cx="150" cy="280" rx="12" ry="6.5" fill="#8bc34a" transform="rotate(-32 150 280)"/>
+  <ellipse cx="172" cy="275" rx="11" ry="6" fill="#689f38" transform="rotate(18 172 275)"/>
+  <ellipse cx="152" cy="240" rx="11" ry="6" fill="#9ccc65" transform="rotate(-25 152 240)"/>
+  <ellipse cx="170" cy="235" rx="10" ry="5.5" fill="#7cb342" transform="rotate(20 170 235)"/>
+  <ellipse cx="154" cy="200" rx="10" ry="5.5" fill="#aed581" transform="rotate(-30 154 200)"/>
+  <ellipse cx="168" cy="195" rx="9" ry="5" fill="#8bc34a" transform="rotate(22 168 195)"/>
+  <ellipse cx="156" cy="160" rx="9" ry="5" fill="#c5e1a5" transform="rotate(-28 156 160)"/>
+  <ellipse cx="166" cy="155" rx="8" ry="4.5" fill="#9ccc65" transform="rotate(18 166 155)"/>
+  <!-- center stem leaves -->
+  <ellipse cx="185" cy="380" rx="11" ry="6" fill="#558b2f" transform="rotate(-22 185 380)"/>
+  <ellipse cx="210" cy="375" rx="10" ry="5.5" fill="#689f38" transform="rotate(28 210 375)"/>
+  <ellipse cx="184" cy="340" rx="11" ry="6" fill="#7cb342" transform="rotate(-25 184 340)"/>
+  <ellipse cx="208" cy="335" rx="10" ry="5.5" fill="#558b2f" transform="rotate(22 208 335)"/>
+  <ellipse cx="186" cy="300" rx="10" ry="5.5" fill="#8bc34a" transform="rotate(-20 186 300)"/>
+  <ellipse cx="206" cy="295" rx="10" ry="5" fill="#689f38" transform="rotate(25 206 295)"/>
+  <ellipse cx="188" cy="260" rx="10" ry="5" fill="#9ccc65" transform="rotate(-22 188 260)"/>
+  <ellipse cx="205" cy="255" rx="9" ry="5" fill="#7cb342" transform="rotate(20 205 255)"/>
+  <ellipse cx="192" cy="220" rx="9" ry="4.5" fill="#aed581" transform="rotate(-18 192 220)"/>
+  <ellipse cx="204" cy="215" rx="8" ry="4.5" fill="#8bc34a" transform="rotate(22 204 215)"/>
+  <!-- right stem leaves -->
+  <ellipse cx="218" cy="390" rx="12" ry="6.5" fill="#689f38" transform="rotate(30 218 390)"/>
+  <ellipse cx="238" cy="385" rx="11" ry="6" fill="#558b2f" transform="rotate(-20 238 385)"/>
+  <ellipse cx="222" cy="350" rx="11" ry="6" fill="#7cb342" transform="rotate(28 222 350)"/>
+  <ellipse cx="240" cy="345" rx="10" ry="5.5" fill="#689f38" transform="rotate(-22 240 345)"/>
+  <ellipse cx="225" cy="310" rx="11" ry="6" fill="#8bc34a" transform="rotate(25 225 310)"/>
+  <ellipse cx="242" cy="305" rx="10" ry="5.5" fill="#558b2f" transform="rotate(-18 242 305)"/>
+  <ellipse cx="228" cy="270" rx="10" ry="5.5" fill="#9ccc65" transform="rotate(22 228 270)"/>
+  <ellipse cx="242" cy="265" rx="9" ry="5" fill="#7cb342" transform="rotate(-20 242 265)"/>
+  <ellipse cx="230" cy="230" rx="9" ry="5" fill="#aed581" transform="rotate(25 230 230)"/>
+  <ellipse cx="240" cy="225" rx="8" ry="4.5" fill="#8bc34a" transform="rotate(-18 240 225)"/>
+</svg>

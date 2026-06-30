@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" fill="none">
+  <rect width="400" height="520" fill="#e8f5e9"/>
+  <ellipse cx="200" cy="480" rx="105" ry="15" fill="#c8e6c9" opacity="0.5"/>
+  <!-- main woody stem -->
+  <path d="M200 470 C198 430, 196 380, 200 320 C204 260, 208 200, 205 140" stroke="#5d4037" stroke-width="5" fill="none"/>
+  <path d="M200 470 C198 430, 196 380, 200 320 C204 260, 208 200, 205 140" stroke="#6d4c41" stroke-width="3" fill="none" opacity="0.4"/>
+  <!-- rosemary: narrow, needle-like leaves along the stem -->
+  <!-- bottom leaves -->
+  <path d="M200 420 C178 415, 145 408, 130 400" stroke="#2e7d32" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M130 400 C145 396, 178 400, 200 420" fill="#388e3c" opacity="0.5"/>
+  <path d="M200 415 C222 410, 255 403, 270 395" stroke="#2e7d32" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M270 395 C255 391, 222 395, 200 415" fill="#388e3c" opacity="0.5"/>
+  <!-- more leaf pairs going up -->
+  <path d="M200 390 C175 384, 138 375, 120 365" stroke="#388e3c" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <path d="M120 365 C138 360, 175 365, 200 390" fill="#43a047" opacity="0.4"/>
+  <path d="M200 385 C225 379, 262 370, 280 360" stroke="#388e3c" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <path d="M280 360 C262 355, 225 360, 200 385" fill="#43a047" opacity="0.4"/>
+
+  <path d="M200 355 C178 350, 142 342, 125 332" stroke="#43a047" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M125 332 C142 328, 178 333, 200 355" fill="#4caf50" opacity="0.4"/>
+  <path d="M201 350 C223 345, 258 337, 275 327" stroke="#43a047" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M275 327 C258 323, 223 328, 201 350" fill="#4caf50" opacity="0.4"/>
+
+  <path d="M201 320 C180 315, 148 308, 132 298" stroke="#4caf50" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M132 298 C148 294, 180 300, 201 320" fill="#66bb6a" opacity="0.4"/>
+  <path d="M202 315 C222 310, 255 303, 270 293" stroke="#4caf50" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M270 293 C255 289, 222 294, 202 315" fill="#66bb6a" opacity="0.4"/>
+
+  <path d="M203 285 C182 280, 152 273, 138 263" stroke="#4caf50" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M138 263 C152 260, 182 264, 203 285" fill="#81c784" opacity="0.4"/>
+  <path d="M204 280 C224 275, 252 268, 265 258" stroke="#4caf50" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M265 258 C252 255, 224 259, 204 280" fill="#81c784" opacity="0.4"/>
+
+  <path d="M204 250 C186 245, 158 240, 145 232" stroke="#66bb6a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <path d="M145 232 C158 229, 186 233, 204 250" fill="#a5d6a7" opacity="0.4"/>
+  <path d="M205 245 C222 240, 248 235, 260 227" stroke="#66bb6a" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <path d="M260 227 C248 224, 222 228, 205 245" fill="#a5d6a7" opacity="0.4"/>
+
+  <path d="M205 218 C190 214, 165 210, 155 204" stroke="#66bb6a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+  <path d="M206 213 C218 210, 240 206, 250 200" stroke="#66bb6a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+
+  <path d="M205 190 C192 186, 172 183, 162 178" stroke="#81c784" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M206 185 C218 182, 235 179, 245 174" stroke="#81c784" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+
+  <path d="M205 162 C195 159, 180 157, 172 153" stroke="#a5d6a7" stroke-width="1" fill="none" stroke-linecap="round"/>
+  <path d="M206 158 C215 155, 228 153, 235 149" stroke="#a5d6a7" stroke-width="1" fill="none" stroke-linecap="round"/>
+</svg>

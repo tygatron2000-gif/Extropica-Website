@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" fill="none">
+  <rect width="400" height="520" fill="#e8f5e9"/>
+  <ellipse cx="200" cy="480" rx="100" ry="15" fill="#c8e6c9" opacity="0.5"/>
+  <!-- chives: tall, thin tubular leaves growing in a cluster -->
+  <!-- blades (tallest in center, shorter on sides) -->
+  <path d="M160 470 C158 400, 148 320, 140 220 C136 180, 135 140, 138 100" stroke="#388e3c" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M160 470 C158 400, 148 320, 140 220" fill="none" stroke="#43a047" stroke-width="6" opacity="0.3" stroke-linecap="round"/>
+
+  <path d="M180 470 C178 395, 172 310, 168 210 C165 165, 164 125, 168 80" stroke="#43a047" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M180 470 C178 395, 172 310, 168 210" fill="none" stroke="#4caf50" stroke-width="6" opacity="0.3" stroke-linecap="round"/>
+
+  <path d="M200 470 C200 390, 200 300, 200 195 C200 150, 202 110, 205 68" stroke="#2e7d32" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M200 470 C200 390, 200 300, 200 195" fill="none" stroke="#388e3c" stroke-width="7" opacity="0.25" stroke-linecap="round"/>
+
+  <path d="M220 470 C222 398, 228 315, 232 215 C235 170, 236 130, 234 85" stroke="#388e3c" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  <path d="M220 470 C222 398, 228 315, 232 215" fill="none" stroke="#43a047" stroke-width="6" opacity="0.3" stroke-linecap="round"/>
+
+  <path d="M240 470 C242 405, 250 325, 258 225 C262 185, 264 145, 260 108" stroke="#4caf50" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M240 470 C242 405, 250 325, 258 225" fill="none" stroke="#66bb6a" stroke-width="5.5" opacity="0.25" stroke-linecap="round"/>
+
+  <!-- outer shorter blades -->
+  <path d="M145 470 C140 415, 128 345, 118 260 C112 210, 112 175, 118 140" stroke="#66bb6a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M255 470 C260 418, 270 348, 278 265 C284 218, 285 180, 280 148" stroke="#66bb6a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- flower buds on top of two blades (chives have purple pompom flowers) -->
+  <circle cx="205" cy="62" r="10" fill="#ab47bc" opacity="0.7"/>
+  <circle cx="205" cy="62" r="7" fill="#ce93d8" opacity="0.5"/>
+  <circle cx="202" cy="58" r="3" fill="#e1bee7" opacity="0.6"/>
+  <circle cx="208" cy="60" r="2.5" fill="#f3e5f5" opacity="0.5"/>
+  <circle cx="205" cy="66" r="2.5" fill="#e1bee7" opacity="0.5"/>
+
+  <circle cx="168" cy="75" r="8" fill="#ab47bc" opacity="0.6"/>
+  <circle cx="168" cy="75" r="5.5" fill="#ce93d8" opacity="0.4"/>
+  <circle cx="166" cy="72" r="2.5" fill="#e1bee7" opacity="0.5"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" fill="none">
+  <rect width="400" height="520" fill="#e8f5e9"/>
+  <ellipse cx="200" cy="480" rx="110" ry="16" fill="#c8e6c9" opacity="0.5"/>
+  <!-- stems -->
+  <path d="M200 470 C198 400, 190 350, 180 280" stroke="#2e7d32" stroke-width="4" fill="none"/>
+  <path d="M200 470 C202 390, 210 330, 220 260" stroke="#388e3c" stroke-width="3.5" fill="none"/>
+  <path d="M200 470 C196 395, 185 340, 160 250" stroke="#2e7d32" stroke-width="3" fill="none"/>
+  <!-- flat-leaf parsley: broader, flatter leaves with serrated edges -->
+  <!-- left branch -->
+  <path d="M160 250 C140 230, 110 220, 100 200 C90 180, 105 165, 125 170 C130 160, 145 155, 155 165 C165 155, 175 158, 178 170 C185 165, 195 168, 192 180 C200 178, 205 185, 198 195 C195 210, 180 240, 160 250Z" fill="#43a047"/>
+  <path d="M160 250 C140 230, 110 220, 100 200" stroke="#2e7d32" stroke-width="1.5" fill="none"/>
+  <path d="M125 170 L145 220" stroke="#2e7d32" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M155 165 L155 215" stroke="#2e7d32" stroke-width="1" fill="none" opacity="0.6"/>
+  <!-- center branch -->
+  <path d="M180 280 C170 250, 160 230, 155 210 C145 185, 160 170, 180 175 C182 162, 195 155, 205 165 C215 155, 228 160, 225 175 C238 170, 245 180, 238 192 C248 195, 248 208, 238 212 C230 230, 200 265, 180 280Z" fill="#4caf50"/>
+  <path d="M180 280 C170 250, 160 230, 155 210" stroke="#2e7d32" stroke-width="1.2" fill="none"/>
+  <path d="M180 175 L185 230" stroke="#2e7d32" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M205 165 L200 220" stroke="#2e7d32" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- right branch -->
+  <path d="M220 260 C230 235, 245 218, 260 200 C275 182, 280 168, 268 160 C272 148, 262 140, 250 148 C248 136, 235 132, 228 142 C218 135, 208 140, 212 152 C202 148, 198 158, 208 165 C200 180, 210 230, 220 260Z" fill="#388e3c"/>
+  <path d="M220 260 C230 235, 245 218, 260 200" stroke="#1b5e20" stroke-width="1.2" fill="none"/>
+  <path d="M250 148 L240 200" stroke="#1b5e20" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- top leaves -->
+  <path d="M170 250 C155 225, 140 208, 128 185 C118 165, 132 148, 148 158 C155 145, 170 145, 172 158 C182 148, 192 155, 188 168 C180 195, 175 230, 170 250Z" fill="#66bb6a"/>
+  <path d="M220 240 C235 215, 248 198, 258 178 C268 158, 255 142, 240 152 C235 138, 220 138, 218 152 C208 142, 198 150, 202 162 C210 185, 218 218, 220 240Z" fill="#81c784" opacity="0.8"/>
+</svg>
