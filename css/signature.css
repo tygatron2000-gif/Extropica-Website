@@ -437,6 +437,14 @@ body.menu-open .mobile-nav a:nth-child(5) { transition-delay: 0.42s; }
   .step .node { left: -2.8rem; }
   .gallery { grid-auto-rows: 150px; }
   .g-item.wide { grid-column: span 2; }
+  /* Keep hero chips fully on-screen on phones + lighter GPU load */
+  .hero-visual { max-width: 380px; }
+  .chip { font-size: 0.74rem; padding: 0.5rem 0.8rem; backdrop-filter: none; box-shadow: 0 8px 20px rgba(0,0,0,0.22); }
+  .chip.c1 { top: 4%; left: 2%; }
+  .chip.c2 { bottom: 13%; right: 2%; }
+  .chip.c3 { bottom: 3%; left: 2%; }
+  .hero-blob { filter: blur(45px); }
+  .hero-blob.b2 { display: none; }
 }
 
 /* ─── Touch devices ───────────────────────────────────────── */
