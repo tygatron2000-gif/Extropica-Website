@@ -110,12 +110,12 @@ body::after {
   padding: 0.7rem 0; box-shadow: 0 1px 0 var(--line);
 }
 .hd-inner { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; }
-.brand { display: flex; align-items: center; gap: 0.7rem; }
-.brand img { height: 50px; width: auto; transition: height var(--t); }
-.site-header.solid .brand img { height: 42px; }
+.brand { display: flex; align-items: center; gap: 0.95rem; }
+.brand img { height: 78px; width: auto; transition: height var(--t); }
+.site-header.solid .brand img { height: 60px; }
 .brand-text { display: flex; flex-direction: column; line-height: 1; }
-.brand-name { font-weight: 800; font-size: 1.12rem; letter-spacing: -0.02em; color: var(--ink); }
-.brand-sub { font-size: 0.64rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--ink-soft); margin-top: 3px; }
+.brand-name { font-weight: 800; font-size: 1.55rem; letter-spacing: -0.02em; color: var(--ink); }
+.brand-sub { font-size: 0.78rem; letter-spacing: 0.24em; text-transform: uppercase; color: var(--ink-soft); margin-top: 5px; }
 /* header sits over dark hero initially → light text; flips when solid */
 .site-header:not(.solid) .brand-name { color: var(--cream); }
 .site-header:not(.solid) .brand-sub { color: rgba(255,255,255,0.6); }
@@ -410,6 +410,11 @@ body.menu-open .mobile-nav a:nth-child(5) { transition-delay: 0.42s; }
 
 /* ─── Responsive ──────────────────────────────────────────── */
 @media (max-width: 1080px) {
+  .brand { gap: 0.8rem; }
+  .brand img { height: 64px; }
+  .site-header.solid .brand img { height: 52px; }
+  .brand-name { font-size: 1.28rem; }
+  .brand-sub { font-size: 0.68rem; }
   .hero-grid { grid-template-columns: 1fr; gap: 3.5rem; }
   .hero-visual { max-width: 440px; margin-inline: auto; width: 100%; }
   .herb-grid { grid-template-columns: repeat(2, 1fr); }
@@ -426,6 +431,11 @@ body.menu-open .mobile-nav a:nth-child(5) { transition-delay: 0.42s; }
   .g-item.tall { grid-row: span 1; }
 }
 @media (max-width: 620px) {
+  .brand { gap: 0.65rem; }
+  .brand img { height: 56px; }
+  .site-header.solid .brand img { height: 46px; }
+  .brand-name { font-size: 1.08rem; }
+  .brand-sub { font-size: 0.56rem; letter-spacing: 0.2em; }
   .hero { padding-top: 9rem; }
   .hero-meta-item + .hero-meta-item { padding-left: 0; border-left: none; }
   .herb-grid { grid-template-columns: 1fr 1fr; gap: 1rem; }
