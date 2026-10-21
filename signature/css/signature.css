@@ -191,27 +191,60 @@ body.menu-open .mobile-nav a:nth-child(5) { transition-delay: 0.42s; }
 .hero-arch::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(12,59,34,0.5), transparent 50%); }
 .field-note {
   --tilt: 0deg;
+  --float-x: 3px;
+  --float-y: -10px;
+  --float-turn: 0.6deg;
+  --float-speed: 5.4s;
+  --float-delay: 0s;
+  --sheen-delay: 0s;
+  --note-glow: color-mix(in srgb, var(--spring) 27%, transparent);
+  --note-edge: color-mix(in srgb, var(--spring-soft) 55%, transparent);
   position: absolute;
   z-index: 2;
-  box-shadow: 0 4px 12px var(--line-dk);
-  animation: note-drift 9s ease-in-out infinite;
+  box-shadow: 0 4px 12px var(--line-dk), 0 0 12px var(--note-glow), inset 0 0 0 1px var(--note-edge);
+  animation: note-drift var(--float-speed) ease-in-out var(--float-delay) infinite, note-glow 4.6s ease-in-out var(--float-delay) infinite;
   transform: rotate(var(--tilt));
+  isolation: isolate;
 }
 .note-caption { display: block; font: 500 0.57rem/1.3 ui-monospace, monospace; letter-spacing: 0.1em; text-transform: uppercase; }
 .origin-note { --tilt: 0deg; top: 11%; left: -4%; width: 124px; padding: 0.65rem 0.8rem; background: var(--paper); color: var(--forest); border-radius: 3px; border-top: 2px solid var(--spring); }
 .origin-note .note-caption { display: flex; align-items: center; justify-content: space-between; }
 .country-code { border: 1px solid var(--line); padding: 0.15rem 0.25rem; letter-spacing: 0.06em; }
 .note-country { display: block; font: 400 2rem/1.1 var(--serif); letter-spacing: -0.04em; margin: 0.35rem 0 0; }
-.grower-note { --tilt: 0deg; right: -3%; bottom: 31%; width: 148px; padding: 0.75rem; color: var(--cream); background: var(--forest-2); border: 1px solid var(--spring-soft); border-radius: 3px; animation-duration: 11s; animation-delay: -3s; }
+.grower-note { --tilt: 0deg; right: -3%; bottom: 31%; width: 148px; padding: 0.75rem; color: var(--cream); background: var(--forest-2); border: 1px solid var(--spring-soft); border-radius: 3px; --float-x: -3px; --float-y: -12px; --float-turn: -0.5deg; --float-speed: 6.2s; --float-delay: -2s; --sheen-delay: -2.4s; }
 .grower-note .note-caption { color: var(--spring-soft); margin-bottom: 0.4rem; }
 .note-leaf { position: absolute; width: 22px; height: 22px; right: 0.55rem; top: 0.4rem; color: var(--spring); }
 .note-growers { display: block; font-size: 0.82rem; line-height: 1.4; font-weight: 600; }
 .note-growers em { font-family: var(--serif); font-size: 0.92rem; font-weight: 400; }
-.freight-note { --tilt: 0deg; bottom: 4%; left: 4%; display: flex; align-items: center; gap: 0.65rem; padding: 0.65rem 0.8rem; color: var(--forest); background: var(--cream); border-radius: 3px; clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%); animation-duration: 10s; animation-delay: -5s; }
+.freight-note { --tilt: 0deg; bottom: 4%; left: 4%; display: flex; align-items: center; gap: 0.65rem; padding: 0.65rem 0.8rem; color: var(--forest); background: var(--cream); border-radius: 3px; clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%); --float-y: -8px; --float-speed: 5.8s; --float-delay: -3.6s; --sheen-delay: -4.8s; }
 .freight-copy { display: block; padding-right: 0.65rem; border-right: 1px solid var(--line); }
 .note-route { display: block; font-size: 0.82rem; font-weight: 600; margin-top: 0.25rem; }
 .note-plane { flex: none; width: 22px; height: 22px; }
-@keyframes note-drift { 0%,100% { transform: translateY(0) rotate(var(--tilt)); } 50% { transform: translateY(-2px) rotate(var(--tilt)); } }
+.field-note::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: linear-gradient(110deg, transparent 38%, color-mix(in srgb, var(--white) 32%, transparent) 50%, transparent 62%);
+  background-size: 300% 100%;
+  opacity: 0;
+  animation: note-sheen 7.2s ease-in-out var(--sheen-delay) infinite;
+}
+@keyframes note-drift {
+  0%,100% { transform: translate(0, 0) rotate(var(--tilt)); }
+  50% { transform: translate(var(--float-x), var(--float-y)) rotate(calc(var(--tilt) + var(--float-turn))); }
+}
+@keyframes note-glow {
+  0%,100% { box-shadow: 0 4px 12px var(--line-dk), 0 0 12px var(--note-glow), inset 0 0 0 1px var(--note-edge); }
+  50% { box-shadow: 0 6px 18px var(--line-dk), 0 0 24px var(--note-glow), inset 0 0 0 1px var(--spring-soft); }
+}
+@keyframes note-sheen {
+  0%,18% { background-position: 140% 0; opacity: 0; }
+  28% { opacity: 0.8; }
+  44% { background-position: -40% 0; opacity: 0; }
+  100% { background-position: -40% 0; opacity: 0; }
+}
 
 /* Marquee */
 .marquee { background: var(--ink); color: var(--cream); overflow: hidden; padding: 1.1rem 0; }
@@ -462,7 +495,7 @@ body.menu-open .mobile-nav a:nth-child(5) { transition-delay: 0.42s; }
   .g-item.wide { grid-column: span 2; }
   /* Keep field notes within the photo on phones */
   .hero-visual { max-width: 380px; }
-  .field-note { animation: none; }
+  .field-note { --float-x: 1px; --float-y: -5px; --float-turn: 0.2deg; }
   .origin-note { top: 8%; left: 2%; width: 112px; padding: 0.6rem 0.7rem; }
   .note-country { font-size: 1.8rem; }
   .grower-note { right: 2%; bottom: 31%; width: 138px; padding: 0.65rem; }
